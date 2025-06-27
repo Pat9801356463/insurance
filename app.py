@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import base64
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
@@ -9,48 +8,15 @@ from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 from sklearn.metrics import mean_absolute_error, r2_score, mean_squared_error
 
-# ---------- Streamlit Config ----------
+# ---------- Streamlit Page Settings ----------
 st.set_page_config(page_title="Insurance Charges Predictor")
 
-# ---------- Sidebar Logo ----------
-def get_base64_logo(image_path):
-    try:
-        with open(image_path, "rb") as img_file:
-            return base64.b64encode(img_file.read()).decode("utf-8")
-    except FileNotFoundError:
-        return None
-
-logo_base64 = get_base64_logo("static/Hoonartek-V25-White-Color.png")
-
-st.markdown(f"""
-    <style>
-        html, body, [class*="css"] {{
-            font-family: 'Poppins', sans-serif;
-        }}
-        [data-testid="stSidebar"] {{
-            background: linear-gradient(135deg, #003D62, #3497BA);
-            color: white;
-            padding: 20px;
-        }}
-        [data-testid="stSidebar"] label, h2, p {{
-            color: white !important;
-        }}
-    </style>
-""", unsafe_allow_html=True)
-
-if logo_base64:
-    st.sidebar.markdown(
-        f"""
-        <div style="text-align: center;">
-            <img src="data:image/png;base64,{logo_base64}" style="width: 220px; margin-bottom: 20px;" />
-        </div>
-        """, unsafe_allow_html=True
-    )
-
-# ---------- Sidebar Info ----------
-st.sidebar.markdown("## Use Case")
-st.sidebar.markdown("Predict medical insurance premiums using a machine learning model.")
-st.sidebar.markdown("## Model")
+# ---------- Sidebar Info (No Logo) ----------
+st.sidebar.markdown("## 📝 Use Case")
+st.sidebar.markdown(
+    "Predict health insurance premiums using personal, demographic, and medical inputs."
+)
+st.sidebar.markdown("## 🔍 Model")
 st.sidebar.markdown("Gradient Boosting Regressor")
 
 # ---------- Load Data ----------
@@ -108,7 +74,7 @@ model, metrics, num_cols, cat_cols = train_model(df)
 if model is None:
     st.stop()
 
-# ---------- Input Form ----------
+# ---------- Input UI ----------
 st.subheader("🧾 Enter Your Details")
 input_data = {}
 feature_info = {
@@ -132,7 +98,6 @@ ordered_keys = [
     'bmi', 'children', 'smoker', 'family_history'
 ]
 
-# Display inputs
 for i in range(0, len(ordered_keys), 2):
     cols = st.columns(2)
     for j in range(2):
@@ -155,3 +120,4 @@ if st.button("📊 Predict Premium"):
 # ---------- Show Metrics ----------
 with st.expander("📈 Model Performance Metrics"):
     st.write(metrics)
+
