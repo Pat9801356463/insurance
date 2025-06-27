@@ -1,6 +1,9 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import requests
+import json
+
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
@@ -8,14 +11,12 @@ from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 from sklearn.metrics import mean_absolute_error, r2_score, mean_squared_error
 
-# ---------- Streamlit Page Settings ----------
+# ---------- Page Config ----------
 st.set_page_config(page_title="Insurance Charges Predictor")
 
-# ---------- Sidebar Info (No Logo) ----------
+# ---------- Sidebar Info ----------
 st.sidebar.markdown("## 📝 Use Case")
-st.sidebar.markdown(
-    "Predict health insurance premiums using personal, demographic, and medical inputs."
-)
+st.sidebar.markdown("Predict health insurance premiums using personal and medical data.")
 st.sidebar.markdown("## 🔍 Model")
 st.sidebar.markdown("Gradient Boosting Regressor")
 
@@ -24,7 +25,7 @@ st.sidebar.markdown("Gradient Boosting Regressor")
 def load_data():
     df = pd.read_csv("enhanced_insurance.csv")
     if 'Unnamed: 0' in df.columns:
-        df = df.drop('Unnamed: 0', axis=1)
+        df.drop('Unnamed: 0', axis=1, inplace=True)
     df['bmi'] = pd.to_numeric(df['bmi'], errors='coerce')
     df['charges'] = pd.to_numeric(df['charges'], errors='coerce')
     df['bmi'].fillna(df['bmi'].median(), inplace=True)
@@ -40,12 +41,12 @@ def train_model(df):
     X = df.drop(columns=['charges'])
     y = np.log1p(df['charges'])
 
-    numerical = X.select_dtypes(include=np.number).columns.tolist()
-    categorical = X.select_dtypes(include='object').columns.tolist()
+    num_cols = X.select_dtypes(include=np.number).columns.tolist()
+    cat_cols = X.select_dtypes(include='object').columns.tolist()
 
     preprocessor = ColumnTransformer([
-        ('num', StandardScaler(), numerical),
-        ('cat', OneHotEncoder(drop='first', handle_unknown='ignore'), categorical)
+        ('num', StandardScaler(), num_cols),
+        ('cat', OneHotEncoder(drop='first', handle_unknown='ignore'), cat_cols)
     ])
 
     pipeline = Pipeline([
@@ -63,20 +64,18 @@ def train_model(df):
         'R2 Score': r2_score(np.expm1(y_test), np.expm1(y_pred))
     }
 
-    return pipeline, metrics, numerical, categorical
+    return pipeline, metrics, num_cols, cat_cols
 
-# ---------- App Title ----------
+# ---------- Load Everything ----------
 st.title("💰 Insurance Charges Predictor")
-
-# ---------- Load Data & Model ----------
 df = load_data()
 model, metrics, num_cols, cat_cols = train_model(df)
 if model is None:
     st.stop()
 
-# ---------- Input UI ----------
-st.subheader("🧾 Enter Your Details")
-input_data = {}
+# ---------- User Input Form ----------
+st.subheader("🧾 Fill in the Details")
+
 feature_info = {
     'age': "Age of the person",
     'sex': "Gender of the insured",
@@ -87,49 +86,56 @@ feature_info = {
     'occupation': "Current occupation",
     'annual_income': "Annual income",
     'bmi': "Body Mass Index",
-    'children': "Number of children/dependents",
+    'children': "Number of dependents",
     'smoker': "Smoker status",
-    'family_history': "Major disease in family?"
+    'family_history': "Any major disease in family?"
 }
 
-ordered_keys = [
+input_order = [
     'age', 'sex', 'region', 'indian_state', 'pre_existing_conditions',
     'hospital_visits_last_year', 'occupation', 'annual_income',
     'bmi', 'children', 'smoker', 'family_history'
 ]
 
-for i in range(0, len(ordered_keys), 2):
+user_input = {}
+
+for i in range(0, len(input_order), 2):
     cols = st.columns(2)
     for j in range(2):
-        if i + j < len(ordered_keys):
-            key = ordered_keys[i + j]
+        if i + j < len(input_order):
+            key = input_order[i + j]
             label = key.replace("_", " ").title()
             if key in num_cols:
-                val = cols[j].number_input(f"{label}", value=float(df[key].median()), help=feature_info.get(key, ""))
+                value = cols[j].number_input(f"{label}", value=float(df[key].median()), help=feature_info[key])
             else:
-                val = cols[j].selectbox(f"{label}", options=df[key].dropna().unique(), help=feature_info.get(key, ""))
-            input_data[key] = val
-import json
+                value = cols[j].selectbox(f"{label}", options=df[key].dropna().unique(), help=feature_info[key])
+            user_input[key] = value
 
-# Convert input to JSON string
-input_json_str = json.dumps(input_data, indent=4)
-
-# Allow user to download the JSON
-st.download_button(
-    label="⬇️ Download Input as JSON",
-    data=input_json_str,
-    file_name="insurance_input.json",
-    mime="application/json"
-)
-
-# ---------- Predict Premium ----------
+# ---------- Predict & Send to Backend ----------
 if st.button("📊 Predict Premium"):
-    input_df = pd.DataFrame([input_data])
-    pred_log = model.predict(input_df)[0]
-    predicted = np.expm1(pred_log)
-    st.success(f"💸 Estimated Annual Premium: **₹ {predicted:,.2f}**")
+    try:
+        # Predict
+        input_df = pd.DataFrame([user_input])
+        log_pred = model.predict(input_df)[0]
+        predicted_charge = np.expm1(log_pred)
+        st.success(f"💸 Estimated Annual Premium: **₹ {predicted_charge:,.2f}**")
+
+        # Attach prediction to JSON
+        payload = user_input.copy()
+        payload['predicted_premium'] = round(predicted_charge, 2)
+
+        # Send to backend
+        backend_url = "https://your-backend.com/save-input"  # ⬅️ Replace with real URL
+        response = requests.post(backend_url, json=payload)
+
+        if response.status_code == 200:
+            st.info("✅ Input data saved to backend successfully.")
+        else:
+            st.warning("⚠️ Prediction succeeded, but backend save failed.")
+
+    except Exception as e:
+        st.error(f"❌ An error occurred: {str(e)}")
 
 # ---------- Show Metrics ----------
 with st.expander("📈 Model Performance Metrics"):
-    st.write(metrics)
-
+    st.json(metrics)
