@@ -1,0 +1,1339 @@
+age,sex,bmi,children,smoker,region,charges,indian_state,pre_existing_conditions,occupation,annual_income,hospital_visits_last_year,family_history
+19,female,27.9,0,yes,southwest,16884.924,Rajasthan,Asthma,Engineer,602769,4,No
+18,male,33.77,1,no,southeast,1725.5523,Tamil Nadu,Hypertension,Doctor,532022,0,No
+28,male,33.0,3,no,southeast,4449.462,Uttar Pradesh,None,Teacher,409343,2,No
+33,male,22.705,0,no,northwest,21984.47061,West Bengal,None,Doctor,670938,0,Yes
+32,male,28.88,0,no,northwest,3866.8552,Rajasthan,Asthma,Engineer,473744,2,No
+31,female,25.74,0,no,southeast,3756.6216,Andhra Pradesh,None,Self-employed,536406,3,Yes
+46,female,33.44,1,no,southeast,8240.5896,Karnataka,Asthma,Labour,563538,0,No
+37,female,27.74,3,no,northwest,7281.5056,Rajasthan,Diabetes,Labour,535742,2,No
+37,male,29.83,2,no,northeast,6406.4107,Uttar Pradesh,Heart Disease,Engineer,591541,1,No
+60,female,25.84,0,no,northwest,28923.13692,West Bengal,Hypertension,Teacher,607337,2,No
+25,male,26.22,0,no,northeast,2721.3208,Tamil Nadu,Heart Disease,Labour,477516,3,Yes
+62,female,26.29,0,yes,southeast,27808.7251,Uttar Pradesh,None,Clerk,662546,4,Yes
+23,male,34.4,0,no,southwest,1826.843,Uttar Pradesh,Hypertension,Labour,473309,0,No
+56,female,39.82,0,no,southeast,11090.7178,Karnataka,Diabetes,Clerk,533674,0,Yes
+27,male,42.13,0,yes,southeast,39611.7577,Gujarat,Diabetes,Engineer,461232,1,Yes
+19,male,24.6,1,no,southwest,1837.237,West Bengal,Hypertension,Engineer,432652,1,No
+52,female,30.78,1,no,northeast,10797.3362,Delhi,Asthma,Labour,604419,6,Yes
+23,male,23.845,0,no,northeast,2395.17155,Uttar Pradesh,Heart Disease,Doctor,812189,3,No
+56,male,40.3,0,no,southwest,10602.385,Gujarat,Hypertension,Clerk,463824,1,Yes
+30,male,35.3,0,yes,southwest,36837.467,Delhi,Diabetes,Teacher,621532,3,No
+60,female,36.005,0,no,northeast,13228.84695,West Bengal,Diabetes,Labour,467408,2,No
+30,female,32.4,1,no,southwest,4149.736,Maharashtra,Hypertension,Teacher,498951,1,No
+18,male,34.1,0,no,southeast,1137.011,Andhra Pradesh,None,Labour,675758,2,Yes
+34,female,31.92,1,yes,northeast,37701.8768,Gujarat,None,Doctor,392646,3,No
+37,male,28.025,2,no,northwest,6203.90175,Kerala,None,Doctor,366184,1,No
+59,female,27.72,3,no,southeast,14001.1338,Maharashtra,None,Doctor,491280,6,No
+63,female,23.085,0,no,northeast,14451.83515,Andhra Pradesh,None,Self-employed,566365,2,No
+55,female,32.775,2,no,northwest,12268.63225,Karnataka,None,Doctor,546366,0,No
+23,male,17.385,1,no,northwest,2775.19215,Rajasthan,None,Engineer,536067,2,Yes
+31,male,36.3,2,yes,southwest,38711.0,Tamil Nadu,None,Engineer,503413,3,No
+22,male,35.6,0,yes,southwest,35585.576,Kerala,Heart Disease,Self-employed,578654,1,No
+18,female,26.315,0,no,northeast,2198.18985,Karnataka,Diabetes,Clerk,208632,3,No
+19,female,28.6,5,no,southwest,4687.797,West Bengal,None,Teacher,424919,0,Yes
+63,male,28.31,0,no,northwest,13770.0979,Karnataka,Hypertension,Labour,490638,1,No
+28,male,36.4,1,yes,southwest,51194.55914,Rajasthan,None,Labour,570453,2,No
+19,male,20.425,0,no,northwest,1625.43375,West Bengal,Heart Disease,Self-employed,648976,1,Yes
+62,female,32.965,3,no,northwest,15612.19335,Kerala,Hypertension,Engineer,411490,1,Yes
+26,male,20.8,0,no,southwest,2302.3,Rajasthan,None,Labour,645707,3,Yes
+35,male,36.67,1,yes,northeast,39774.2763,Delhi,Diabetes,Engineer,454743,3,No
+60,male,39.9,0,yes,southwest,48173.361,Tamil Nadu,Asthma,Clerk,487009,1,Yes
+24,female,26.6,0,no,northeast,3046.062,Kerala,Heart Disease,Teacher,558143,0,No
+31,female,36.63,2,no,southeast,4949.7587,Delhi,Diabetes,Clerk,479676,2,No
+41,male,21.78,1,no,southeast,6272.4772,Andhra Pradesh,Hypertension,Self-employed,611011,5,No
+37,female,30.8,2,no,southeast,6313.759,Kerala,None,Doctor,459539,0,No
+38,male,37.05,1,no,northeast,6079.6715,Andhra Pradesh,Heart Disease,Doctor,461046,1,Yes
+55,male,37.3,0,no,southwest,20630.28351,West Bengal,None,Doctor,605197,2,No
+18,female,38.665,2,no,northeast,3393.35635,Delhi,Heart Disease,Clerk,423687,1,No
+28,female,34.77,0,no,northwest,3556.9223,Tamil Nadu,Hypertension,Labour,524892,3,Yes
+60,female,24.53,0,no,southeast,12629.8967,Rajasthan,Hypertension,Teacher,333951,2,Yes
+36,male,35.2,1,yes,southeast,38709.176,Uttar Pradesh,Diabetes,Doctor,681963,2,No
+18,female,35.625,0,no,northeast,2211.13075,Karnataka,None,Self-employed,620655,4,No
+21,female,33.63,2,no,northwest,3579.8287,Maharashtra,None,Self-employed,775010,4,No
+48,male,28.0,1,yes,southwest,23568.272,Tamil Nadu,None,Doctor,633836,0,Yes
+36,male,34.43,0,yes,southeast,37742.5757,Delhi,None,Doctor,387034,3,No
+40,female,28.69,3,no,northwest,8059.6791,Uttar Pradesh,Hypertension,Teacher,566864,3,Yes
+58,male,36.955,2,yes,northwest,47496.49445,Tamil Nadu,None,Doctor,408199,1,No
+58,female,31.825,2,no,northeast,13607.36875,Delhi,None,Teacher,657803,4,No
+18,male,31.68,2,yes,southeast,34303.1672,Gujarat,Heart Disease,Self-employed,389885,3,No
+53,female,22.88,1,yes,southeast,23244.7902,Gujarat,Asthma,Doctor,385084,1,Yes
+34,female,37.335,2,no,northwest,5989.52365,Andhra Pradesh,Heart Disease,Clerk,339018,1,No
+43,male,27.36,3,no,northeast,8606.2174,Tamil Nadu,Heart Disease,Clerk,451162,1,Yes
+25,male,33.66,4,no,southeast,4504.6624,Gujarat,None,Self-employed,431052,1,No
+64,male,24.7,1,no,northwest,30166.61817,Delhi,None,Teacher,373835,1,No
+28,female,25.935,1,no,northwest,4133.64165,Andhra Pradesh,Hypertension,Clerk,698980,1,Yes
+20,female,22.42,0,yes,northwest,14711.7438,Delhi,Hypertension,Teacher,552988,1,No
+19,female,28.9,0,no,southwest,1743.214,Andhra Pradesh,None,Clerk,541223,6,No
+61,female,39.1,2,no,southwest,14235.072,Tamil Nadu,Asthma,Clerk,658916,2,No
+40,male,26.315,1,no,northwest,6389.37785,Uttar Pradesh,None,Teacher,525625,0,No
+40,female,36.19,0,no,southeast,5920.1041,Rajasthan,None,Labour,425131,2,No
+28,male,23.98,3,yes,southeast,17663.1442,Kerala,Diabetes,Clerk,329979,1,No
+27,female,24.75,0,yes,southeast,16577.7795,Uttar Pradesh,Diabetes,Doctor,419494,2,Yes
+31,male,28.5,5,no,northeast,6799.458,West Bengal,Diabetes,Self-employed,650541,3,No
+53,female,28.1,3,no,southwest,11741.726,Delhi,None,Labour,374466,2,No
+58,male,32.01,1,no,southeast,11946.6259,West Bengal,Asthma,Teacher,535312,1,No
+44,male,27.4,2,no,southwest,7726.854,Uttar Pradesh,None,Labour,603392,4,No
+57,male,34.01,0,no,northwest,11356.6609,Andhra Pradesh,None,Engineer,528534,2,No
+29,female,29.59,1,no,southeast,3947.4131,Kerala,Asthma,Engineer,539898,5,Yes
+21,male,35.53,0,no,southeast,1532.4697,Kerala,Heart Disease,Clerk,565560,0,Yes
+22,female,39.805,0,no,northeast,2755.02095,Maharashtra,Asthma,Clerk,537928,1,No
+41,female,32.965,0,no,northwest,6571.02435,Kerala,Asthma,Doctor,660907,0,No
+31,male,26.885,1,no,northeast,4441.21315,Rajasthan,Hypertension,Self-employed,395970,2,No
+45,female,38.285,0,no,northeast,7935.29115,Kerala,Diabetes,Labour,524042,1,No
+22,male,37.62,1,yes,southeast,37165.1638,Uttar Pradesh,None,Engineer,318175,2,Yes
+48,female,41.23,4,no,northwest,11033.6617,Maharashtra,Diabetes,Clerk,292625,2,No
+37,female,34.8,2,yes,southwest,39836.519,Uttar Pradesh,None,Self-employed,491832,2,No
+45,male,22.895,2,yes,northwest,21098.55405,Uttar Pradesh,None,Labour,554337,3,No
+57,female,31.16,0,yes,northwest,43578.9394,Karnataka,Hypertension,Clerk,663066,1,No
+56,female,27.2,0,no,southwest,11073.176,Maharashtra,Diabetes,Clerk,741979,1,No
+46,female,27.74,0,no,northwest,8026.6666,Uttar Pradesh,None,Engineer,631986,3,No
+55,female,26.98,0,no,northwest,11082.5772,Karnataka,None,Engineer,572716,2,No
+21,female,39.49,0,no,southeast,2026.9741,Karnataka,Hypertension,Clerk,515996,5,No
+53,female,24.795,1,no,northwest,10942.13205,Maharashtra,None,Teacher,346877,2,No
+59,male,29.83,3,yes,northeast,30184.9367,West Bengal,Asthma,Clerk,485396,0,No
+35,male,34.77,2,no,northwest,5729.0053,Andhra Pradesh,Diabetes,Self-employed,629037,1,No
+64,female,31.3,2,yes,southwest,47291.055,Rajasthan,Diabetes,Clerk,589828,2,No
+28,female,37.62,1,no,southeast,3766.8838,Andhra Pradesh,Diabetes,Doctor,371366,2,No
+54,female,30.8,3,no,southwest,12105.32,Kerala,Asthma,Doctor,561402,4,No
+55,male,38.28,0,no,southeast,10226.2842,Rajasthan,None,Doctor,552839,2,Yes
+56,male,19.95,0,yes,northeast,22412.6485,Kerala,Hypertension,Teacher,534989,2,No
+38,male,19.3,0,yes,southwest,15820.699,Uttar Pradesh,Diabetes,Teacher,497214,1,No
+41,female,31.6,0,no,southwest,6186.127,Delhi,None,Clerk,566558,3,No
+30,male,25.46,0,no,northeast,3645.0894,Maharashtra,Asthma,Doctor,569731,3,No
+18,female,30.115,0,no,northeast,21344.8467,Rajasthan,Hypertension,Teacher,435854,4,Yes
+61,female,29.92,3,yes,southeast,30942.1918,Rajasthan,Hypertension,Engineer,545501,5,Yes
+34,female,27.5,1,no,southwest,5003.853,Uttar Pradesh,Asthma,Clerk,481060,0,Yes
+20,male,28.025,1,yes,northwest,17560.37975,West Bengal,Asthma,Self-employed,351276,0,No
+19,female,28.4,1,no,southwest,2331.519,Karnataka,Hypertension,Labour,443839,3,No
+26,male,30.875,2,no,northwest,3877.30425,Uttar Pradesh,Asthma,Clerk,343631,0,No
+29,male,27.94,0,no,southeast,2867.1196,Gujarat,Hypertension,Labour,598009,2,No
+63,male,35.09,0,yes,southeast,47055.5321,Karnataka,Hypertension,Doctor,535588,4,No
+54,male,33.63,1,no,northwest,10825.2537,Maharashtra,Hypertension,Labour,464450,3,Yes
+55,female,29.7,2,no,southwest,11881.358,Karnataka,Hypertension,Doctor,642052,0,Yes
+37,male,30.8,0,no,southwest,4646.759,West Bengal,None,Engineer,506799,0,No
+21,female,35.72,0,no,northwest,2404.7338,Karnataka,Asthma,Labour,356877,2,No
+52,male,32.205,3,no,northeast,11488.31695,Maharashtra,Asthma,Clerk,456052,2,No
+60,male,28.595,0,no,northeast,30259.99556,West Bengal,None,Doctor,663285,1,No
+58,male,49.06,0,no,southeast,11381.3254,Andhra Pradesh,Asthma,Clerk,433052,2,No
+29,female,27.94,1,yes,southeast,19107.7796,Rajasthan,None,Teacher,527522,0,Yes
+49,female,27.17,0,no,southeast,8601.3293,Rajasthan,None,Doctor,574387,3,No
+37,female,23.37,2,no,northwest,6686.4313,Kerala,Hypertension,Labour,558994,0,No
+44,male,37.1,2,no,southwest,7740.337,Andhra Pradesh,None,Doctor,744945,0,No
+18,male,23.75,0,no,northeast,1705.6245,Andhra Pradesh,Asthma,Clerk,382369,1,Yes
+20,female,28.975,0,no,northwest,2257.47525,Karnataka,Asthma,Engineer,392353,2,No
+44,male,31.35,1,yes,northeast,39556.4945,Rajasthan,Diabetes,Doctor,384024,1,No
+47,female,33.915,3,no,northwest,10115.00885,Maharashtra,None,Labour,470408,4,Yes
+26,female,28.785,0,no,northeast,3385.39915,Tamil Nadu,None,Teacher,609937,5,No
+19,female,28.3,0,yes,southwest,17081.08,Tamil Nadu,Hypertension,Self-employed,396826,1,Yes
+52,female,37.4,0,no,southwest,9634.538,West Bengal,Heart Disease,Engineer,611336,2,No
+32,female,17.765,2,yes,northwest,32734.1863,Rajasthan,Hypertension,Teacher,503512,3,No
+38,male,34.7,2,no,southwest,6082.405,Rajasthan,None,Doctor,389100,3,No
+59,female,26.505,0,no,northeast,12815.44495,Tamil Nadu,Hypertension,Clerk,324863,2,No
+61,female,22.04,0,no,northeast,13616.3586,Rajasthan,Diabetes,Clerk,347242,0,Yes
+53,female,35.9,2,no,southwest,11163.568,Karnataka,Hypertension,Labour,433414,0,Yes
+19,male,25.555,0,no,northwest,1632.56445,Gujarat,None,Clerk,483084,0,Yes
+20,female,28.785,0,no,northeast,2457.21115,Delhi,Hypertension,Engineer,634606,3,Yes
+22,female,28.05,0,no,southeast,2155.6815,Andhra Pradesh,Diabetes,Clerk,579908,1,No
+19,male,34.1,0,no,southwest,1261.442,Kerala,Heart Disease,Labour,416105,5,Yes
+22,male,25.175,0,no,northwest,2045.68525,West Bengal,None,Self-employed,540866,2,No
+54,female,31.9,3,no,southeast,27322.73386,Gujarat,Hypertension,Doctor,665154,3,No
+22,female,36.0,0,no,southwest,2166.732,Tamil Nadu,Heart Disease,Doctor,687391,4,No
+34,male,22.42,2,no,northeast,27375.90478,Andhra Pradesh,None,Clerk,468559,0,No
+26,male,32.49,1,no,northeast,3490.5491,Rajasthan,Heart Disease,Teacher,595828,0,No
+34,male,25.3,2,yes,southeast,18972.495,Kerala,Hypertension,Doctor,638995,0,No
+29,male,29.735,2,no,northwest,18157.876,Rajasthan,None,Self-employed,349292,1,Yes
+30,male,28.69,3,yes,northwest,20745.9891,Maharashtra,None,Clerk,448759,1,No
+29,female,38.83,3,no,southeast,5138.2567,Maharashtra,Hypertension,Labour,722001,1,No
+46,male,30.495,3,yes,northwest,40720.55105,Kerala,None,Self-employed,469896,1,No
+51,female,37.73,1,no,southeast,9877.6077,Kerala,Diabetes,Clerk,207104,2,No
+53,female,37.43,1,no,northwest,10959.6947,Tamil Nadu,None,Self-employed,487903,1,No
+19,male,28.4,1,no,southwest,1842.519,Kerala,Hypertension,Doctor,612462,1,No
+35,male,24.13,1,no,northwest,5125.2157,Karnataka,None,Labour,500651,3,No
+48,male,29.7,0,no,southeast,7789.635,Rajasthan,Asthma,Clerk,571536,1,No
+32,female,37.145,3,no,northeast,6334.34355,Gujarat,Heart Disease,Engineer,593822,2,No
+42,female,23.37,0,yes,northeast,19964.7463,Uttar Pradesh,Heart Disease,Labour,464506,1,No
+40,female,25.46,1,no,northeast,7077.1894,Kerala,Hypertension,Engineer,448060,2,Yes
+44,male,39.52,0,no,northwest,6948.7008,West Bengal,None,Self-employed,515344,3,No
+48,male,24.42,0,yes,southeast,21223.6758,Maharashtra,Hypertension,Teacher,517777,3,No
+18,male,25.175,0,yes,northeast,15518.18025,Karnataka,None,Labour,505407,0,Yes
+30,male,35.53,0,yes,southeast,36950.2567,Andhra Pradesh,None,Self-employed,509515,2,No
+50,female,27.83,3,no,southeast,19749.38338,Uttar Pradesh,None,Engineer,425145,0,No
+42,female,26.6,0,yes,northwest,21348.706,Gujarat,Diabetes,Doctor,575028,3,No
+18,female,36.85,0,yes,southeast,36149.4835,Uttar Pradesh,Hypertension,Doctor,559923,3,Yes
+54,male,39.6,1,no,southwest,10450.552,Kerala,Hypertension,Teacher,366399,1,No
+32,female,29.8,2,no,southwest,5152.134,Tamil Nadu,Diabetes,Labour,461083,0,No
+37,male,29.64,0,no,northwest,5028.1466,Maharashtra,None,Labour,509307,1,No
+47,male,28.215,4,no,northeast,10407.08585,Maharashtra,Heart Disease,Labour,446568,1,No
+20,female,37.0,5,no,southwest,4830.63,Andhra Pradesh,Diabetes,Self-employed,563737,1,No
+32,female,33.155,3,no,northwest,6128.79745,Tamil Nadu,Diabetes,Teacher,493311,2,Yes
+19,female,31.825,1,no,northwest,2719.27975,Rajasthan,None,Labour,516907,4,No
+27,male,18.905,3,no,northeast,4827.90495,Delhi,Hypertension,Self-employed,459929,2,Yes
+63,male,41.47,0,no,southeast,13405.3903,Karnataka,Hypertension,Doctor,300678,3,No
+49,male,30.3,0,no,southwest,8116.68,Maharashtra,None,Engineer,294965,2,No
+18,male,15.96,0,no,northeast,1694.7964,West Bengal,None,Self-employed,558960,3,No
+35,female,34.8,1,no,southwest,5246.047,Maharashtra,Hypertension,Doctor,526691,3,Yes
+24,female,33.345,0,no,northwest,2855.43755,Uttar Pradesh,Hypertension,Doctor,543866,0,No
+63,female,37.7,0,yes,southwest,48824.45,Maharashtra,None,Engineer,513447,1,Yes
+38,male,27.835,2,no,northwest,6455.86265,Maharashtra,Heart Disease,Doctor,521456,2,No
+54,male,29.2,1,no,southwest,10436.096,Delhi,None,Teacher,596902,3,No
+46,female,28.9,2,no,southwest,8823.279,Delhi,Diabetes,Engineer,544461,0,No
+41,female,33.155,3,no,northeast,8538.28845,Gujarat,Heart Disease,Doctor,604090,1,No
+58,male,28.595,0,no,northwest,11735.87905,Rajasthan,Diabetes,Clerk,517146,4,Yes
+18,female,38.28,0,no,southeast,1631.8212,West Bengal,Hypertension,Self-employed,469961,2,No
+22,male,19.95,3,no,northeast,4005.4225,Maharashtra,None,Doctor,519420,1,No
+44,female,26.41,0,no,northwest,7419.4779,Maharashtra,None,Teacher,416382,1,No
+44,male,30.69,2,no,southeast,7731.4271,Karnataka,Heart Disease,Labour,462015,1,No
+36,male,41.895,3,yes,northeast,43753.33705,Delhi,Diabetes,Doctor,517757,3,No
+26,female,29.92,2,no,southeast,3981.9768,West Bengal,Asthma,Labour,516431,1,No
+30,female,30.9,3,no,southwest,5325.651,Andhra Pradesh,None,Clerk,489358,2,No
+41,female,32.2,1,no,southwest,6775.961,Gujarat,None,Doctor,361181,5,No
+29,female,32.11,2,no,northwest,4922.9159,Rajasthan,None,Engineer,563640,0,No
+61,male,31.57,0,no,southeast,12557.6053,Tamil Nadu,Hypertension,Labour,583422,3,No
+36,female,26.2,0,no,southwest,4883.866,Rajasthan,None,Clerk,664369,2,Yes
+25,male,25.74,0,no,southeast,2137.6536,Uttar Pradesh,Asthma,Engineer,544177,1,No
+56,female,26.6,1,no,northwest,12044.342,Maharashtra,Diabetes,Engineer,500146,1,Yes
+18,male,34.43,0,no,southeast,1137.4697,Gujarat,Heart Disease,Engineer,398697,3,Yes
+19,male,30.59,0,no,northwest,1639.5631,Uttar Pradesh,None,Engineer,649201,1,No
+39,female,32.8,0,no,southwest,5649.715,West Bengal,Asthma,Doctor,524783,1,No
+45,female,28.6,2,no,southeast,8516.829,Tamil Nadu,Hypertension,Self-employed,519337,1,Yes
+51,female,18.05,0,no,northwest,9644.2525,Delhi,Hypertension,Doctor,474594,2,No
+64,female,39.33,0,no,northeast,14901.5167,Gujarat,Asthma,Doctor,468203,1,No
+19,female,32.11,0,no,northwest,2130.6759,Gujarat,Hypertension,Clerk,568826,2,No
+48,female,32.23,1,no,southeast,8871.1517,Maharashtra,Hypertension,Clerk,397855,3,No
+60,female,24.035,0,no,northwest,13012.20865,Kerala,None,Self-employed,662543,2,No
+27,female,36.08,0,yes,southeast,37133.8982,Gujarat,None,Clerk,640752,3,No
+46,male,22.3,0,no,southwest,7147.105,Karnataka,Heart Disease,Teacher,464593,2,Yes
+28,female,28.88,1,no,northeast,4337.7352,Tamil Nadu,Hypertension,Self-employed,413613,1,Yes
+59,male,26.4,0,no,southeast,11743.299,Tamil Nadu,Hypertension,Clerk,298479,2,Yes
+35,male,27.74,2,yes,northeast,20984.0936,Karnataka,Diabetes,Self-employed,374858,3,No
+63,female,31.8,0,no,southwest,13880.949,Andhra Pradesh,None,Doctor,572991,2,No
+40,male,41.23,1,no,northeast,6610.1097,Karnataka,None,Doctor,531534,0,No
+20,male,33.0,1,no,southwest,1980.07,Karnataka,Hypertension,Self-employed,549365,3,No
+40,male,30.875,4,no,northwest,8162.71625,Tamil Nadu,Diabetes,Teacher,315442,1,No
+24,male,28.5,2,no,northwest,3537.703,Rajasthan,None,Teacher,460418,1,Yes
+34,female,26.73,1,no,southeast,5002.7827,Tamil Nadu,Diabetes,Self-employed,636727,4,No
+45,female,30.9,2,no,southwest,8520.026,Kerala,None,Clerk,490397,3,No
+41,female,37.1,2,no,southwest,7371.772,Maharashtra,Diabetes,Labour,372770,3,Yes
+53,female,26.6,0,no,northwest,10355.641,Uttar Pradesh,None,Teacher,488839,2,Yes
+27,male,23.1,0,no,southeast,2483.736,Rajasthan,Hypertension,Engineer,422898,1,No
+26,female,29.92,1,no,southeast,3392.9768,Delhi,None,Doctor,533367,1,No
+24,female,23.21,0,no,southeast,25081.76784,Uttar Pradesh,Diabetes,Self-employed,502054,0,No
+34,female,33.7,1,no,southwest,5012.471,Maharashtra,None,Engineer,554329,4,No
+53,female,33.25,0,no,northeast,10564.8845,Kerala,None,Self-employed,378207,3,No
+32,male,30.8,3,no,southwest,5253.524,Kerala,None,Doctor,455128,0,Yes
+19,male,34.8,0,yes,southwest,34779.615,Delhi,Diabetes,Doctor,609043,0,No
+42,male,24.64,0,yes,southeast,19515.5416,Rajasthan,Hypertension,Teacher,364571,6,No
+55,male,33.88,3,no,southeast,11987.1682,Andhra Pradesh,None,Teacher,399688,2,No
+28,male,38.06,0,no,southeast,2689.4954,Karnataka,Hypertension,Engineer,519929,6,No
+58,female,41.91,0,no,southeast,24227.33724,Rajasthan,Asthma,Self-employed,528672,0,No
+41,female,31.635,1,no,northeast,7358.17565,Andhra Pradesh,Hypertension,Doctor,451115,2,No
+47,male,25.46,2,no,northeast,9225.2564,Kerala,None,Engineer,472156,0,No
+42,female,36.195,1,no,northwest,7443.64305,Tamil Nadu,Diabetes,Labour,553322,1,No
+59,female,27.83,3,no,southeast,14001.2867,Maharashtra,None,Engineer,584963,6,No
+19,female,17.8,0,no,southwest,1727.785,Delhi,None,Clerk,393077,1,Yes
+59,male,27.5,1,no,southwest,12333.828,Maharashtra,Heart Disease,Engineer,536431,2,No
+39,male,24.51,2,no,northwest,6710.1919,West Bengal,None,Clerk,651201,1,No
+40,female,22.22,2,yes,southeast,19444.2658,West Bengal,Diabetes,Clerk,488410,1,No
+18,female,26.73,0,no,southeast,1615.7667,Rajasthan,Hypertension,Clerk,392016,4,Yes
+31,male,38.39,2,no,southeast,4463.2051,Kerala,Hypertension,Labour,387390,5,No
+19,male,29.07,0,yes,northwest,17352.6803,Kerala,Diabetes,Engineer,483926,3,No
+44,male,38.06,1,no,southeast,7152.6714,Karnataka,None,Engineer,603584,1,No
+23,female,36.67,2,yes,northeast,38511.6283,Karnataka,None,Labour,495924,2,No
+33,female,22.135,1,no,northeast,5354.07465,Karnataka,Diabetes,Doctor,518923,3,No
+55,female,26.8,1,no,southwest,35160.13457,Tamil Nadu,None,Teacher,400365,3,No
+40,male,35.3,3,no,southwest,7196.867,Uttar Pradesh,None,Engineer,598311,3,No
+63,female,27.74,0,yes,northeast,29523.1656,Gujarat,None,Teacher,385434,3,No
+54,male,30.02,0,no,northwest,24476.47851,Uttar Pradesh,None,Self-employed,449550,2,Yes
+60,female,38.06,0,no,southeast,12648.7034,Maharashtra,None,Self-employed,562991,3,Yes
+24,male,35.86,0,no,southeast,1986.9334,Uttar Pradesh,None,Labour,296056,5,No
+19,male,20.9,1,no,southwest,1832.094,Tamil Nadu,Diabetes,Self-employed,517396,0,No
+29,male,28.975,1,no,northeast,4040.55825,Maharashtra,Hypertension,Self-employed,396092,1,No
+18,male,17.29,2,yes,northeast,12829.4551,Uttar Pradesh,Asthma,Doctor,501654,3,Yes
+63,female,32.2,2,yes,southwest,47305.305,Tamil Nadu,None,Doctor,464794,1,No
+54,male,34.21,2,yes,southeast,44260.7499,Gujarat,None,Doctor,710583,0,No
+27,male,30.3,3,no,southwest,4260.744,Uttar Pradesh,None,Self-employed,460687,1,Yes
+50,male,31.825,0,yes,northeast,41097.16175,Tamil Nadu,Hypertension,Labour,684265,3,No
+55,female,25.365,3,no,northeast,13047.33235,Karnataka,Hypertension,Clerk,558695,3,No
+56,male,33.63,0,yes,northwest,43921.1837,Kerala,None,Clerk,419854,3,No
+38,female,40.15,0,no,southeast,5400.9805,Karnataka,Heart Disease,Teacher,533081,2,No
+51,male,24.415,4,no,northwest,11520.09985,Kerala,None,Clerk,469559,2,No
+19,male,31.92,0,yes,northwest,33750.2918,Delhi,Diabetes,Clerk,524215,2,Yes
+58,female,25.2,0,no,southwest,11837.16,Delhi,Hypertension,Doctor,428610,3,No
+20,female,26.84,1,yes,southeast,17085.2676,Delhi,Asthma,Doctor,669017,2,Yes
+52,male,24.32,3,yes,northeast,24869.8368,Gujarat,Hypertension,Self-employed,592539,1,No
+19,male,36.955,0,yes,northwest,36219.40545,Karnataka,Asthma,Teacher,503178,2,Yes
+53,female,38.06,3,no,southeast,20462.99766,Kerala,None,Engineer,672911,3,No
+46,male,42.35,3,yes,southeast,46151.1245,Tamil Nadu,Asthma,Teacher,507427,1,No
+40,male,19.8,1,yes,southeast,17179.522,Maharashtra,None,Teacher,609762,3,Yes
+59,female,32.395,3,no,northeast,14590.63205,Tamil Nadu,Asthma,Labour,503830,1,No
+45,male,30.2,1,no,southwest,7441.053,Maharashtra,Diabetes,Self-employed,539388,1,Yes
+49,male,25.84,1,no,northeast,9282.4806,West Bengal,Asthma,Labour,491856,0,No
+18,male,29.37,1,no,southeast,1719.4363,Tamil Nadu,Diabetes,Teacher,509530,1,No
+50,male,34.2,2,yes,southwest,42856.838,Uttar Pradesh,Hypertension,Teacher,517053,1,Yes
+41,male,37.05,2,no,northwest,7265.7025,Uttar Pradesh,Diabetes,Teacher,433026,0,Yes
+50,male,27.455,1,no,northeast,9617.66245,Rajasthan,Hypertension,Clerk,459893,0,No
+25,male,27.55,0,no,northwest,2523.1695,Karnataka,None,Labour,478324,1,Yes
+47,female,26.6,2,no,northeast,9715.841,Maharashtra,None,Teacher,522971,1,No
+19,male,20.615,2,no,northwest,2803.69785,Maharashtra,None,Doctor,496942,2,No
+22,female,24.3,0,no,southwest,2150.469,Karnataka,None,Self-employed,617303,0,No
+59,male,31.79,2,no,southeast,12928.7911,Gujarat,Asthma,Self-employed,584711,2,No
+51,female,21.56,1,no,southeast,9855.1314,Rajasthan,None,Doctor,480367,0,No
+40,female,28.12,1,yes,northeast,22331.5668,Gujarat,Heart Disease,Self-employed,638178,2,No
+54,male,40.565,3,yes,northeast,48549.17835,Gujarat,None,Clerk,687302,4,Yes
+30,male,27.645,1,no,northeast,4237.12655,Gujarat,None,Clerk,295617,0,Yes
+55,female,32.395,1,no,northeast,11879.10405,Karnataka,Hypertension,Engineer,593229,1,Yes
+52,female,31.2,0,no,southwest,9625.92,Gujarat,Hypertension,Engineer,430701,3,Yes
+46,male,26.62,1,no,southeast,7742.1098,Uttar Pradesh,Diabetes,Engineer,580074,3,Yes
+46,female,48.07,2,no,northeast,9432.9253,Delhi,Diabetes,Self-employed,623823,0,No
+63,female,26.22,0,no,northwest,14256.1928,West Bengal,Hypertension,Clerk,412300,1,No
+59,female,36.765,1,yes,northeast,47896.79135,Maharashtra,None,Clerk,314767,3,No
+52,male,26.4,3,no,southeast,25992.82104,Maharashtra,Heart Disease,Clerk,583543,1,Yes
+28,female,33.4,0,no,southwest,3172.018,West Bengal,Heart Disease,Doctor,513540,4,No
+29,male,29.64,1,no,northeast,20277.80751,Karnataka,Hypertension,Clerk,333156,0,No
+25,male,45.54,2,yes,southeast,42112.2356,Tamil Nadu,None,Doctor,752956,2,No
+22,female,28.82,0,no,southeast,2156.7518,Karnataka,Hypertension,Engineer,562441,0,No
+25,male,26.8,3,no,southwest,3906.127,Maharashtra,None,Engineer,567010,1,No
+18,male,22.99,0,no,northeast,1704.5681,Maharashtra,None,Self-employed,636581,2,No
+19,male,27.7,0,yes,southwest,16297.846,West Bengal,None,Engineer,441917,0,No
+47,male,25.41,1,yes,southeast,21978.6769,Gujarat,Diabetes,Self-employed,513045,4,Yes
+31,male,34.39,3,yes,northwest,38746.3551,Karnataka,Asthma,Teacher,368067,2,No
+48,female,28.88,1,no,northwest,9249.4952,Kerala,Hypertension,Teacher,439205,2,No
+36,male,27.55,3,no,northeast,6746.7425,West Bengal,Hypertension,Labour,538566,0,Yes
+53,female,22.61,3,yes,northeast,24873.3849,Uttar Pradesh,Diabetes,Self-employed,333471,2,No
+56,female,37.51,2,no,southeast,12265.5069,Maharashtra,None,Labour,436371,2,No
+28,female,33.0,2,no,southeast,4349.462,West Bengal,None,Labour,407206,0,No
+57,female,38.0,2,no,southwest,12646.207,Karnataka,Heart Disease,Teacher,514209,0,Yes
+29,male,33.345,2,no,northwest,19442.3535,Maharashtra,None,Self-employed,557470,1,No
+28,female,27.5,2,no,southwest,20177.67113,Tamil Nadu,Asthma,Teacher,574215,3,No
+30,female,33.33,1,no,southeast,4151.0287,West Bengal,Diabetes,Labour,599881,1,No
+58,male,34.865,0,no,northeast,11944.59435,Rajasthan,Diabetes,Self-employed,637211,4,Yes
+41,female,33.06,2,no,northwest,7749.1564,Maharashtra,Hypertension,Labour,560724,0,No
+50,male,26.6,0,no,southwest,8444.474,Karnataka,Diabetes,Clerk,688733,2,No
+19,female,24.7,0,no,southwest,1737.376,Delhi,Asthma,Self-employed,511950,3,No
+43,male,35.97,3,yes,southeast,42124.5153,Kerala,Heart Disease,Self-employed,482667,3,Yes
+49,male,35.86,0,no,southeast,8124.4084,Andhra Pradesh,Diabetes,Labour,560730,2,No
+27,female,31.4,0,yes,southwest,34838.873,Gujarat,None,Clerk,478358,0,No
+52,male,33.25,0,no,northeast,9722.7695,Andhra Pradesh,Diabetes,Doctor,685256,2,Yes
+50,male,32.205,0,no,northwest,8835.26495,Karnataka,Heart Disease,Teacher,613098,1,No
+54,male,32.775,0,no,northeast,10435.06525,Uttar Pradesh,None,Labour,575027,3,No
+44,female,27.645,0,no,northwest,7421.19455,Uttar Pradesh,Hypertension,Self-employed,513141,3,No
+32,male,37.335,1,no,northeast,4667.60765,Delhi,Hypertension,Teacher,459252,4,No
+34,male,25.27,1,no,northwest,4894.7533,Gujarat,Hypertension,Teacher,570132,2,Yes
+26,female,29.64,4,no,northeast,24671.66334,Rajasthan,None,Teacher,387290,1,No
+34,male,30.8,0,yes,southwest,35491.64,Delhi,Hypertension,Doctor,653436,2,No
+57,male,40.945,0,no,northeast,11566.30055,Andhra Pradesh,Heart Disease,Engineer,482236,1,No
+29,male,27.2,0,no,southwest,2866.091,Delhi,None,Labour,530510,1,No
+40,male,34.105,1,no,northeast,6600.20595,Andhra Pradesh,None,Engineer,409039,3,Yes
+27,female,23.21,1,no,southeast,3561.8889,Maharashtra,Heart Disease,Engineer,572298,1,No
+45,male,36.48,2,yes,northwest,42760.5022,Uttar Pradesh,None,Engineer,454625,1,No
+64,female,33.8,1,yes,southwest,47928.03,Maharashtra,Asthma,Teacher,564922,4,No
+52,male,36.7,0,no,southwest,9144.565,Kerala,Diabetes,Clerk,575739,3,No
+61,female,36.385,1,yes,northeast,48517.56315,Gujarat,None,Teacher,435236,3,No
+52,male,27.36,0,yes,northwest,24393.6224,Rajasthan,Asthma,Teacher,387647,1,Yes
+61,female,31.16,0,no,northwest,13429.0354,Andhra Pradesh,Diabetes,Self-employed,653189,4,Yes
+56,female,28.785,0,no,northeast,11658.37915,Rajasthan,Diabetes,Self-employed,480770,2,Yes
+43,female,35.72,2,no,northeast,19144.57652,Andhra Pradesh,None,Engineer,522484,2,No
+64,male,34.5,0,no,southwest,13822.803,Karnataka,Diabetes,Teacher,548546,1,Yes
+60,male,25.74,0,no,southeast,12142.5786,Delhi,None,Engineer,374629,4,Yes
+62,male,27.55,1,no,northwest,13937.6665,Kerala,None,Self-employed,546266,1,No
+50,male,32.3,1,yes,northeast,41919.097,Uttar Pradesh,Heart Disease,Clerk,509912,4,Yes
+46,female,27.72,1,no,southeast,8232.6388,Andhra Pradesh,None,Labour,435646,3,No
+24,female,27.6,0,no,southwest,18955.22017,Rajasthan,Hypertension,Engineer,384346,2,No
+62,male,30.02,0,no,northwest,13352.0998,Kerala,None,Clerk,560588,1,Yes
+60,female,27.55,0,no,northeast,13217.0945,Tamil Nadu,Hypertension,Labour,612771,1,No
+63,male,36.765,0,no,northeast,13981.85035,Tamil Nadu,None,Doctor,517859,1,Yes
+49,female,41.47,4,no,southeast,10977.2063,Maharashtra,Heart Disease,Engineer,356553,5,No
+34,female,29.26,3,no,southeast,6184.2994,Uttar Pradesh,Diabetes,Engineer,394266,2,No
+33,male,35.75,2,no,southeast,4889.9995,Karnataka,None,Doctor,456787,0,Yes
+46,male,33.345,1,no,northeast,8334.45755,Rajasthan,None,Doctor,656461,2,Yes
+36,female,29.92,1,no,southeast,5478.0368,Delhi,None,Engineer,475324,6,No
+19,male,27.835,0,no,northwest,1635.73365,Delhi,Diabetes,Doctor,453143,0,Yes
+57,female,23.18,0,no,northwest,11830.6072,Rajasthan,None,Teacher,332651,3,Yes
+50,female,25.6,0,no,southwest,8932.084,Gujarat,Asthma,Labour,434331,0,No
+30,female,27.7,0,no,southwest,3554.203,Karnataka,Diabetes,Labour,376706,1,No
+33,male,35.245,0,no,northeast,12404.8791,Kerala,None,Labour,399682,1,No
+18,female,38.28,0,no,southeast,14133.03775,Andhra Pradesh,Hypertension,Teacher,511995,0,No
+46,male,27.6,0,no,southwest,24603.04837,Gujarat,Hypertension,Doctor,459883,3,No
+46,male,43.89,3,no,southeast,8944.1151,Andhra Pradesh,None,Clerk,669949,2,Yes
+47,male,29.83,3,no,northwest,9620.3307,Andhra Pradesh,None,Doctor,607800,2,No
+23,male,41.91,0,no,southeast,1837.2819,Gujarat,None,Engineer,439111,1,No
+18,female,20.79,0,no,southeast,1607.5101,Maharashtra,Hypertension,Self-employed,408318,2,No
+48,female,32.3,2,no,northeast,10043.249,Tamil Nadu,Hypertension,Labour,638264,3,No
+35,male,30.5,1,no,southwest,4751.07,Andhra Pradesh,Diabetes,Doctor,666004,2,Yes
+19,female,21.7,0,yes,southwest,13844.506,Gujarat,Asthma,Clerk,280575,0,Yes
+21,female,26.4,1,no,southwest,2597.779,Gujarat,Asthma,Engineer,509285,4,No
+21,female,21.89,2,no,southeast,3180.5101,West Bengal,Diabetes,Teacher,474812,2,No
+49,female,30.78,1,no,northeast,9778.3472,Maharashtra,Asthma,Teacher,564912,2,No
+56,female,32.3,3,no,northeast,13430.265,Uttar Pradesh,None,Clerk,694266,3,Yes
+42,female,24.985,2,no,northwest,8017.06115,West Bengal,None,Engineer,451594,1,No
+44,male,32.015,2,no,northwest,8116.26885,West Bengal,None,Labour,293930,3,No
+18,male,30.4,3,no,northeast,3481.868,Rajasthan,None,Doctor,557900,0,No
+61,female,21.09,0,no,northwest,13415.0381,Tamil Nadu,Diabetes,Engineer,638996,0,No
+57,female,22.23,0,no,northeast,12029.2867,Gujarat,Heart Disease,Teacher,469624,2,No
+42,female,33.155,1,no,northeast,7639.41745,Tamil Nadu,None,Clerk,429496,5,Yes
+26,male,32.9,2,yes,southwest,36085.219,Karnataka,None,Clerk,456274,1,No
+20,male,33.33,0,no,southeast,1391.5287,Rajasthan,Diabetes,Doctor,585020,3,No
+23,female,28.31,0,yes,northwest,18033.9679,Uttar Pradesh,Heart Disease,Clerk,454553,1,Yes
+39,female,24.89,3,yes,northeast,21659.9301,Tamil Nadu,None,Clerk,532876,0,Yes
+24,male,40.15,0,yes,southeast,38126.2465,Delhi,Diabetes,Engineer,502780,4,No
+64,female,30.115,3,no,northwest,16455.70785,Andhra Pradesh,None,Labour,492462,1,No
+62,male,31.46,1,no,southeast,27000.98473,Karnataka,None,Doctor,570129,3,No
+27,female,17.955,2,yes,northeast,15006.57945,Maharashtra,Heart Disease,Engineer,452142,0,Yes
+55,male,30.685,0,yes,northeast,42303.69215,Uttar Pradesh,Heart Disease,Labour,456941,1,No
+55,male,33.0,0,no,southeast,20781.48892,Karnataka,None,Engineer,579760,0,No
+35,female,43.34,2,no,southeast,5846.9176,Andhra Pradesh,Heart Disease,Self-employed,401307,3,No
+44,male,22.135,2,no,northeast,8302.53565,Rajasthan,Hypertension,Engineer,411977,1,No
+19,male,34.4,0,no,southwest,1261.859,Andhra Pradesh,Asthma,Clerk,373968,1,No
+58,female,39.05,0,no,southeast,11856.4115,West Bengal,Diabetes,Labour,584901,3,No
+50,male,25.365,2,no,northwest,30284.64294,Andhra Pradesh,Diabetes,Doctor,489476,2,No
+26,female,22.61,0,no,northwest,3176.8159,West Bengal,Diabetes,Doctor,368638,6,No
+24,female,30.21,3,no,northwest,4618.0799,Rajasthan,Hypertension,Labour,585380,4,No
+48,male,35.625,4,no,northeast,10736.87075,Kerala,None,Clerk,444445,1,No
+19,female,37.43,0,no,northwest,2138.0707,West Bengal,None,Teacher,412832,1,No
+48,male,31.445,1,no,northeast,8964.06055,Maharashtra,None,Engineer,480432,3,No
+49,male,31.35,1,no,northeast,9290.1395,Andhra Pradesh,Hypertension,Clerk,647872,2,No
+46,female,32.3,2,no,northeast,9411.005,Andhra Pradesh,None,Self-employed,460503,1,No
+46,male,19.855,0,no,northwest,7526.70645,Maharashtra,Hypertension,Labour,557533,2,No
+43,female,34.4,3,no,southwest,8522.003,Delhi,Heart Disease,Engineer,572708,0,No
+21,male,31.02,0,no,southeast,16586.49771,Gujarat,None,Doctor,544327,2,No
+64,male,25.6,2,no,southwest,14988.432,Kerala,Hypertension,Teacher,627107,4,No
+18,female,38.17,0,no,southeast,1631.6683,Uttar Pradesh,Diabetes,Self-employed,429288,3,Yes
+51,female,20.6,0,no,southwest,9264.797,West Bengal,Asthma,Doctor,395666,2,No
+47,male,47.52,1,no,southeast,8083.9198,Maharashtra,None,Labour,393703,1,Yes
+64,female,32.965,0,no,northwest,14692.66935,Rajasthan,Hypertension,Engineer,485553,1,Yes
+49,male,32.3,3,no,northwest,10269.46,West Bengal,Asthma,Labour,405295,0,No
+31,male,20.4,0,no,southwest,3260.199,Gujarat,Heart Disease,Engineer,514754,0,Yes
+52,female,38.38,2,no,northeast,11396.9002,Rajasthan,Hypertension,Clerk,507698,3,No
+33,female,24.31,0,no,southeast,4185.0979,Karnataka,Diabetes,Teacher,601857,0,Yes
+47,female,23.6,1,no,southwest,8539.671,Andhra Pradesh,Hypertension,Clerk,529114,3,Yes
+38,male,21.12,3,no,southeast,6652.5288,Karnataka,Asthma,Clerk,458384,2,No
+32,male,30.03,1,no,southeast,4074.4537,West Bengal,Diabetes,Labour,541084,0,No
+19,male,17.48,0,no,northwest,1621.3402,Gujarat,None,Teacher,396980,4,No
+44,female,20.235,1,yes,northeast,19594.80965,Kerala,Heart Disease,Engineer,496185,0,No
+26,female,17.195,2,yes,northeast,14455.64405,West Bengal,Hypertension,Engineer,531940,2,Yes
+25,male,23.9,5,no,southwest,5080.096,Maharashtra,Hypertension,Self-employed,512931,2,No
+19,female,35.15,0,no,northwest,2134.9015,Tamil Nadu,None,Doctor,541506,3,No
+43,female,35.64,1,no,southeast,7345.7266,West Bengal,Hypertension,Self-employed,435595,5,No
+52,male,34.1,0,no,southeast,9140.951,Andhra Pradesh,None,Self-employed,615203,1,No
+36,female,22.6,2,yes,southwest,18608.262,Andhra Pradesh,Hypertension,Engineer,682216,0,No
+64,male,39.16,1,no,southeast,14418.2804,West Bengal,None,Labour,339732,2,No
+63,female,26.98,0,yes,northwest,28950.4692,Rajasthan,Hypertension,Clerk,378440,1,No
+64,male,33.88,0,yes,southeast,46889.2612,Tamil Nadu,Heart Disease,Clerk,504308,3,No
+61,male,35.86,0,yes,southeast,46599.1084,Maharashtra,None,Clerk,474344,5,No
+40,male,32.775,1,yes,northeast,39125.33225,West Bengal,Heart Disease,Teacher,689641,2,Yes
+25,male,30.59,0,no,northeast,2727.3951,Rajasthan,Diabetes,Engineer,521978,1,No
+48,male,30.2,2,no,southwest,8968.33,Andhra Pradesh,Asthma,Labour,639254,2,No
+45,male,24.31,5,no,southeast,9788.8659,Andhra Pradesh,Hypertension,Teacher,295087,1,No
+38,female,27.265,1,no,northeast,6555.07035,Gujarat,Diabetes,Doctor,581416,1,No
+18,female,29.165,0,no,northeast,7323.734819,West Bengal,Hypertension,Labour,428448,1,Yes
+21,female,16.815,1,no,northeast,3167.45585,Tamil Nadu,Asthma,Self-employed,426845,3,No
+27,female,30.4,3,no,northwest,18804.7524,Delhi,Diabetes,Labour,475164,2,No
+19,male,33.1,0,no,southwest,23082.95533,Tamil Nadu,None,Labour,357541,1,Yes
+29,female,20.235,2,no,northwest,4906.40965,Andhra Pradesh,Hypertension,Clerk,544278,0,No
+42,male,26.9,0,no,southwest,5969.723,Andhra Pradesh,Asthma,Labour,519071,1,No
+60,female,30.5,0,no,southwest,12638.195,Karnataka,Hypertension,Self-employed,526619,1,No
+31,male,28.595,1,no,northwest,4243.59005,Andhra Pradesh,Hypertension,Self-employed,588703,0,No
+60,male,33.11,3,no,southeast,13919.8229,Maharashtra,Diabetes,Engineer,651478,2,No
+22,male,31.73,0,no,northeast,2254.7967,Uttar Pradesh,Asthma,Labour,463628,1,Yes
+35,male,28.9,3,no,southwest,5926.846,West Bengal,None,Clerk,547735,1,No
+52,female,46.75,5,no,southeast,12592.5345,Tamil Nadu,Diabetes,Labour,529298,2,No
+26,male,29.45,0,no,northeast,2897.3235,Uttar Pradesh,None,Doctor,537761,2,Yes
+31,female,32.68,1,no,northwest,4738.2682,Rajasthan,None,Doctor,539259,3,No
+33,female,33.5,0,yes,southwest,37079.372,Delhi,None,Clerk,659050,4,No
+18,male,43.01,0,no,southeast,1149.3959,Maharashtra,None,Engineer,454032,1,No
+59,female,36.52,1,no,southeast,28287.89766,Tamil Nadu,Hypertension,Engineer,347426,2,No
+56,male,26.695,1,yes,northwest,26109.32905,Uttar Pradesh,None,Self-employed,430212,0,No
+45,female,33.1,0,no,southwest,7345.084,Delhi,Diabetes,Self-employed,575726,2,No
+60,male,29.64,0,no,northeast,12730.9996,Karnataka,None,Teacher,502332,2,No
+56,female,25.65,0,no,northwest,11454.0215,Maharashtra,None,Clerk,453240,2,Yes
+40,female,29.6,0,no,southwest,5910.944,Maharashtra,None,Labour,392350,2,No
+35,male,38.6,1,no,southwest,4762.329,Karnataka,None,Clerk,522128,0,No
+39,male,29.6,4,no,southwest,7512.267,West Bengal,Hypertension,Teacher,564450,3,No
+30,male,24.13,1,no,northwest,4032.2407,Karnataka,Hypertension,Self-employed,530587,2,No
+24,male,23.4,0,no,southwest,1969.614,Maharashtra,Hypertension,Clerk,474666,2,No
+20,male,29.735,0,no,northwest,1769.53165,Maharashtra,Diabetes,Clerk,514664,3,No
+32,male,46.53,2,no,southeast,4686.3887,Uttar Pradesh,None,Self-employed,514084,1,Yes
+59,male,37.4,0,no,southwest,21797.0004,Andhra Pradesh,Asthma,Teacher,518969,0,No
+55,female,30.14,2,no,southeast,11881.9696,Delhi,Diabetes,Self-employed,381569,3,Yes
+57,female,30.495,0,no,northwest,11840.77505,Karnataka,Diabetes,Engineer,519732,0,No
+56,male,39.6,0,no,southwest,10601.412,Delhi,None,Labour,455940,1,No
+40,female,33.0,3,no,southeast,7682.67,Karnataka,None,Self-employed,604061,5,No
+49,female,36.63,3,no,southeast,10381.4787,Rajasthan,None,Teacher,513291,1,Yes
+42,male,30.0,0,yes,southwest,22144.032,Maharashtra,None,Doctor,583547,1,No
+62,female,38.095,2,no,northeast,15230.32405,Andhra Pradesh,Diabetes,Engineer,469821,5,Yes
+56,male,25.935,0,no,northeast,11165.41765,Uttar Pradesh,Diabetes,Doctor,473428,5,Yes
+19,male,25.175,0,no,northwest,1632.03625,Andhra Pradesh,Hypertension,Self-employed,649425,4,No
+30,female,28.38,1,yes,southeast,19521.9682,Andhra Pradesh,Hypertension,Engineer,543633,2,No
+60,female,28.7,1,no,southwest,13224.693,Andhra Pradesh,Asthma,Labour,428548,0,Yes
+56,female,33.82,2,no,northwest,12643.3778,Delhi,Hypertension,Self-employed,589697,1,Yes
+28,female,24.32,1,no,northeast,23288.9284,Karnataka,Heart Disease,Labour,446669,5,No
+18,female,24.09,1,no,southeast,2201.0971,Kerala,None,Clerk,522569,3,No
+27,male,32.67,0,no,southeast,2497.0383,Rajasthan,None,Doctor,683667,0,Yes
+18,female,30.115,0,no,northeast,2203.47185,Tamil Nadu,None,Engineer,356871,1,No
+19,female,29.8,0,no,southwest,1744.465,Andhra Pradesh,Hypertension,Labour,482421,1,No
+47,female,33.345,0,no,northeast,20878.78443,West Bengal,Asthma,Teacher,540827,2,No
+54,male,25.1,3,yes,southwest,25382.297,Delhi,None,Labour,576469,4,No
+61,male,28.31,1,yes,northwest,28868.6639,Uttar Pradesh,Heart Disease,Teacher,375876,2,Yes
+24,male,28.5,0,yes,northeast,35147.52848,Tamil Nadu,None,Self-employed,346420,1,No
+25,male,35.625,0,no,northwest,2534.39375,Kerala,Heart Disease,Engineer,609074,1,No
+21,male,36.85,0,no,southeast,1534.3045,West Bengal,None,Labour,427958,3,No
+23,male,32.56,0,no,southeast,1824.2854,Kerala,None,Labour,423771,2,No
+63,male,41.325,3,no,northwest,15555.18875,Tamil Nadu,Diabetes,Engineer,655024,3,No
+49,male,37.51,2,no,southeast,9304.7019,Andhra Pradesh,None,Labour,506970,2,Yes
+18,female,31.35,0,no,southeast,1622.1885,West Bengal,None,Teacher,507623,1,Yes
+51,female,39.5,1,no,southwest,9880.068,Kerala,None,Labour,482020,0,Yes
+48,male,34.3,3,no,southwest,9563.029,Uttar Pradesh,Asthma,Doctor,377601,4,No
+31,female,31.065,0,no,northeast,4347.02335,Karnataka,Diabetes,Self-employed,567569,5,No
+54,female,21.47,3,no,northwest,12475.3513,Maharashtra,None,Clerk,540945,3,No
+19,male,28.7,0,no,southwest,1253.936,Karnataka,Hypertension,Teacher,516869,0,Yes
+44,female,38.06,0,yes,southeast,48885.13561,Tamil Nadu,Hypertension,Doctor,488367,1,No
+53,male,31.16,1,no,northwest,10461.9794,Delhi,None,Self-employed,470768,4,No
+19,female,32.9,0,no,southwest,1748.774,Maharashtra,Diabetes,Engineer,591248,3,No
+61,female,25.08,0,no,southeast,24513.09126,Rajasthan,None,Teacher,485870,2,No
+18,female,25.08,0,no,northeast,2196.4732,Uttar Pradesh,None,Clerk,493593,2,Yes
+61,male,43.4,0,no,southwest,12574.049,Rajasthan,Hypertension,Self-employed,552989,2,No
+21,male,25.7,4,yes,southwest,17942.106,West Bengal,None,Clerk,520796,4,No
+20,male,27.93,0,no,northeast,1967.0227,Maharashtra,Diabetes,Engineer,664227,1,Yes
+31,female,23.6,2,no,southwest,4931.647,Rajasthan,Hypertension,Engineer,323863,0,No
+45,male,28.7,2,no,southwest,8027.968,Rajasthan,None,Teacher,529990,1,Yes
+44,female,23.98,2,no,southeast,8211.1002,Kerala,Diabetes,Labour,429439,5,No
+62,female,39.2,0,no,southwest,13470.86,Karnataka,None,Engineer,405791,4,No
+29,male,34.4,0,yes,southwest,36197.699,Kerala,Heart Disease,Self-employed,454293,1,Yes
+43,male,26.03,0,no,northeast,6837.3687,Maharashtra,Diabetes,Labour,505467,4,No
+51,male,23.21,1,yes,southeast,22218.1149,Maharashtra,Asthma,Doctor,509906,5,No
+19,male,30.25,0,yes,southeast,32548.3405,Tamil Nadu,Diabetes,Clerk,348269,0,Yes
+38,female,28.93,1,no,southeast,5974.3847,Kerala,None,Labour,445891,1,No
+37,male,30.875,3,no,northwest,6796.86325,Gujarat,Hypertension,Clerk,528122,2,Yes
+22,male,31.35,1,no,northwest,2643.2685,Karnataka,Heart Disease,Labour,412306,1,No
+21,male,23.75,2,no,northwest,3077.0955,Maharashtra,Hypertension,Doctor,388521,4,Yes
+24,female,25.27,0,no,northeast,3044.2133,Tamil Nadu,Asthma,Engineer,274386,2,Yes
+57,female,28.7,0,no,southwest,11455.28,Kerala,Asthma,Doctor,433680,2,Yes
+56,male,32.11,1,no,northeast,11763.0009,Karnataka,None,Engineer,385037,3,Yes
+27,male,33.66,0,no,southeast,2498.4144,Kerala,None,Engineer,401606,1,No
+51,male,22.42,0,no,northeast,9361.3268,Rajasthan,Hypertension,Clerk,472817,1,Yes
+19,male,30.4,0,no,southwest,1256.299,Tamil Nadu,Diabetes,Self-employed,440017,0,No
+39,male,28.3,1,yes,southwest,21082.16,Karnataka,Asthma,Doctor,383376,4,Yes
+58,male,35.7,0,no,southwest,11362.755,Andhra Pradesh,Heart Disease,Labour,288415,2,Yes
+20,male,35.31,1,no,southeast,27724.28875,West Bengal,None,Doctor,530231,1,No
+45,male,30.495,2,no,northwest,8413.46305,West Bengal,None,Clerk,575282,2,No
+35,female,31.0,1,no,southwest,5240.765,Karnataka,Hypertension,Engineer,460325,1,No
+31,male,30.875,0,no,northeast,3857.75925,Kerala,None,Clerk,473422,1,No
+50,female,27.36,0,no,northeast,25656.57526,Tamil Nadu,Asthma,Teacher,500281,0,Yes
+32,female,44.22,0,no,southeast,3994.1778,West Bengal,Diabetes,Teacher,657878,0,No
+51,female,33.915,0,no,northeast,9866.30485,Tamil Nadu,Hypertension,Labour,343229,2,Yes
+38,female,37.73,0,no,southeast,5397.6167,West Bengal,None,Clerk,458551,2,Yes
+42,male,26.07,1,yes,southeast,38245.59327,Rajasthan,Hypertension,Labour,327802,7,No
+18,female,33.88,0,no,southeast,11482.63485,Kerala,Diabetes,Labour,536231,3,No
+19,female,30.59,2,no,northwest,24059.68019,Rajasthan,Diabetes,Teacher,485604,3,No
+51,female,25.8,1,no,southwest,9861.025,West Bengal,None,Labour,520299,5,Yes
+46,male,39.425,1,no,northeast,8342.90875,Andhra Pradesh,Hypertension,Teacher,515312,3,No
+18,male,25.46,0,no,northeast,1708.0014,Andhra Pradesh,Asthma,Engineer,599070,1,No
+57,male,42.13,1,yes,southeast,48675.5177,Rajasthan,None,Clerk,553813,2,No
+62,female,31.73,0,no,northeast,14043.4767,Andhra Pradesh,None,Labour,583050,0,Yes
+59,male,29.7,2,no,southeast,12925.886,West Bengal,None,Teacher,393446,2,Yes
+37,male,36.19,0,no,southeast,19214.70553,Karnataka,Hypertension,Doctor,619317,3,No
+64,male,40.48,0,no,southeast,13831.1152,Rajasthan,Hypertension,Labour,427763,5,No
+38,male,28.025,1,no,northeast,6067.12675,Delhi,Diabetes,Self-employed,433513,2,No
+33,female,38.9,3,no,southwest,5972.378,Kerala,None,Engineer,527084,1,No
+46,female,30.2,2,no,southwest,8825.086,Andhra Pradesh,None,Engineer,530191,3,Yes
+46,female,28.05,1,no,southeast,8233.0975,Andhra Pradesh,Diabetes,Doctor,392814,0,No
+53,male,31.35,0,no,southeast,27346.04207,Maharashtra,Diabetes,Teacher,482672,3,No
+34,female,38.0,3,no,southwest,6196.448,Gujarat,Heart Disease,Labour,648823,3,Yes
+20,female,31.79,2,no,southeast,3056.3881,Rajasthan,None,Teacher,353166,5,Yes
+63,female,36.3,0,no,southeast,13887.204,Uttar Pradesh,Hypertension,Engineer,648521,2,No
+54,female,47.41,0,yes,southeast,63770.42801,Andhra Pradesh,Diabetes,Teacher,475830,0,No
+54,male,30.21,0,no,northwest,10231.4999,Kerala,Diabetes,Engineer,266224,1,No
+49,male,25.84,2,yes,northwest,23807.2406,Delhi,Hypertension,Teacher,363326,3,Yes
+28,male,35.435,0,no,northeast,3268.84665,Andhra Pradesh,Hypertension,Doctor,403652,4,No
+54,female,46.7,2,no,southwest,11538.421,Delhi,Heart Disease,Clerk,437607,4,Yes
+25,female,28.595,0,no,northeast,3213.62205,West Bengal,None,Doctor,489528,3,No
+43,female,46.2,0,yes,southeast,45863.205,West Bengal,None,Doctor,229651,1,No
+63,male,30.8,0,no,southwest,13390.559,Gujarat,Hypertension,Clerk,518680,0,Yes
+32,female,28.93,0,no,southeast,3972.9247,Karnataka,Diabetes,Clerk,394490,2,Yes
+62,male,21.4,0,no,southwest,12957.118,Uttar Pradesh,None,Labour,639052,3,No
+52,female,31.73,2,no,northwest,11187.6567,Maharashtra,None,Labour,472982,2,No
+25,female,41.325,0,no,northeast,17878.90068,Gujarat,None,Doctor,594284,1,Yes
+28,male,23.8,2,no,southwest,3847.674,Tamil Nadu,Asthma,Doctor,611034,3,No
+46,male,33.44,1,no,northeast,8334.5896,Maharashtra,None,Engineer,608327,1,No
+34,male,34.21,0,no,southeast,3935.1799,Rajasthan,None,Engineer,443359,3,Yes
+35,female,34.105,3,yes,northwest,39983.42595,Kerala,None,Labour,442079,3,No
+19,male,35.53,0,no,northwest,1646.4297,Tamil Nadu,None,Self-employed,477502,4,No
+46,female,19.95,2,no,northwest,9193.8385,Tamil Nadu,None,Self-employed,563623,2,No
+54,female,32.68,0,no,northeast,10923.9332,Gujarat,Diabetes,Labour,448930,1,No
+27,male,30.5,0,no,southwest,2494.022,Karnataka,None,Engineer,488073,3,Yes
+50,male,44.77,1,no,southeast,9058.7303,Gujarat,Asthma,Engineer,527359,1,No
+18,female,32.12,2,no,southeast,2801.2588,Rajasthan,None,Self-employed,409510,5,No
+19,female,30.495,0,no,northwest,2128.43105,Andhra Pradesh,Diabetes,Teacher,403189,2,No
+38,female,40.565,1,no,northwest,6373.55735,Andhra Pradesh,Asthma,Teacher,484173,3,No
+41,male,30.59,2,no,northwest,7256.7231,Karnataka,Hypertension,Engineer,497417,0,Yes
+49,female,31.9,5,no,southwest,11552.904,Rajasthan,Diabetes,Teacher,543388,1,No
+48,male,40.565,2,yes,northwest,45702.02235,Karnataka,None,Clerk,567188,4,No
+31,female,29.1,0,no,southwest,3761.292,Delhi,None,Labour,390093,1,Yes
+18,female,37.29,1,no,southeast,2219.4451,Andhra Pradesh,Hypertension,Labour,418791,5,No
+30,female,43.12,2,no,southeast,4753.6368,Tamil Nadu,Heart Disease,Engineer,402924,0,No
+62,female,36.86,1,no,northeast,31620.00106,Uttar Pradesh,Hypertension,Doctor,641244,2,No
+57,female,34.295,2,no,northeast,13224.05705,Kerala,Diabetes,Self-employed,487972,4,Yes
+58,female,27.17,0,no,northwest,12222.8983,Rajasthan,Hypertension,Engineer,501612,2,Yes
+22,male,26.84,0,no,southeast,1664.9996,Maharashtra,Diabetes,Teacher,505777,2,No
+31,female,38.095,1,yes,northeast,58571.07448,Karnataka,None,Self-employed,428432,2,No
+52,male,30.2,1,no,southwest,9724.53,Kerala,Diabetes,Doctor,656426,1,No
+25,female,23.465,0,no,northeast,3206.49135,Maharashtra,Heart Disease,Teacher,541102,2,No
+59,male,25.46,1,no,northeast,12913.9924,Kerala,None,Clerk,503959,1,Yes
+19,male,30.59,0,no,northwest,1639.5631,Uttar Pradesh,Hypertension,Teacher,389474,2,No
+39,male,45.43,2,no,southeast,6356.2707,Maharashtra,None,Clerk,383806,2,No
+32,female,23.65,1,no,southeast,17626.23951,Gujarat,Diabetes,Self-employed,469109,0,No
+19,male,20.7,0,no,southwest,1242.816,West Bengal,None,Clerk,430000,3,Yes
+33,female,28.27,1,no,southeast,4779.6023,Gujarat,Diabetes,Self-employed,393255,2,Yes
+21,male,20.235,3,no,northeast,3861.20965,Andhra Pradesh,Hypertension,Self-employed,462904,0,No
+34,female,30.21,1,yes,northwest,43943.8761,West Bengal,None,Self-employed,478357,3,Yes
+61,female,35.91,0,no,northeast,13635.6379,Gujarat,Hypertension,Self-employed,514178,2,Yes
+38,female,30.69,1,no,southeast,5976.8311,West Bengal,Hypertension,Self-employed,449608,4,Yes
+58,female,29.0,0,no,southwest,11842.442,West Bengal,Heart Disease,Teacher,399239,0,No
+47,male,19.57,1,no,northwest,8428.0693,Tamil Nadu,None,Self-employed,402707,3,No
+20,male,31.13,2,no,southeast,2566.4707,Karnataka,None,Teacher,621297,2,No
+21,female,21.85,1,yes,northeast,15359.1045,Karnataka,None,Self-employed,374824,2,Yes
+41,male,40.26,0,no,southeast,5709.1644,Tamil Nadu,Heart Disease,Clerk,536318,3,No
+46,female,33.725,1,no,northeast,8823.98575,Kerala,Heart Disease,Self-employed,551954,2,Yes
+42,female,29.48,2,no,southeast,7640.3092,Delhi,Diabetes,Doctor,487872,2,No
+34,female,33.25,1,no,northeast,5594.8455,Kerala,Asthma,Self-employed,676782,1,No
+43,male,32.6,2,no,southwest,7441.501,Maharashtra,Diabetes,Self-employed,550171,0,No
+52,female,37.525,2,no,northwest,33471.97189,Maharashtra,Hypertension,Clerk,684290,1,Yes
+18,female,39.16,0,no,southeast,1633.0444,West Bengal,None,Labour,434893,3,Yes
+51,male,31.635,0,no,northwest,9174.13565,Gujarat,Hypertension,Clerk,436605,1,No
+56,female,25.3,0,no,southwest,11070.535,Gujarat,None,Doctor,552753,2,No
+64,female,39.05,3,no,southeast,16085.1275,Karnataka,Asthma,Labour,473853,0,Yes
+19,female,28.31,0,yes,northwest,17468.9839,Rajasthan,Hypertension,Engineer,668566,0,No
+51,female,34.1,0,no,southeast,9283.562,Kerala,Hypertension,Engineer,534170,1,No
+27,female,25.175,0,no,northeast,3558.62025,Andhra Pradesh,None,Doctor,395542,1,No
+59,female,23.655,0,yes,northwest,25678.77845,Uttar Pradesh,None,Clerk,326318,4,No
+28,male,26.98,2,no,northeast,4435.0942,Gujarat,None,Teacher,492176,2,Yes
+30,male,37.8,2,yes,southwest,39241.442,Uttar Pradesh,None,Doctor,491087,3,Yes
+47,female,29.37,1,no,southeast,8547.6913,West Bengal,None,Labour,531376,0,Yes
+38,female,34.8,2,no,southwest,6571.544,Uttar Pradesh,Heart Disease,Labour,621069,1,No
+18,female,33.155,0,no,northeast,2207.69745,Andhra Pradesh,Diabetes,Self-employed,607911,2,Yes
+34,female,19.0,3,no,northeast,6753.038,Tamil Nadu,None,Engineer,442109,2,No
+20,female,33.0,0,no,southeast,1880.07,Andhra Pradesh,None,Labour,370618,6,Yes
+47,female,36.63,1,yes,southeast,42969.8527,Uttar Pradesh,Diabetes,Doctor,376587,3,No
+56,female,28.595,0,no,northeast,11658.11505,Andhra Pradesh,Hypertension,Labour,426319,2,No
+49,male,25.6,2,yes,southwest,23306.547,Delhi,Diabetes,Doctor,463326,2,Yes
+19,female,33.11,0,yes,southeast,34439.8559,West Bengal,Heart Disease,Teacher,530506,2,Yes
+55,female,37.1,0,no,southwest,10713.644,Kerala,Diabetes,Self-employed,419903,2,No
+30,male,31.4,1,no,southwest,3659.346,Tamil Nadu,Heart Disease,Engineer,528039,4,Yes
+37,male,34.1,4,yes,southwest,40182.246,Gujarat,Asthma,Labour,536204,1,Yes
+49,female,21.3,1,no,southwest,9182.17,Maharashtra,None,Doctor,514334,2,Yes
+18,male,33.535,0,yes,northeast,34617.84065,Kerala,Heart Disease,Clerk,387137,2,No
+59,male,28.785,0,no,northwest,12129.61415,Maharashtra,None,Engineer,546782,0,No
+29,female,26.03,0,no,northwest,3736.4647,West Bengal,Asthma,Teacher,708126,2,No
+36,male,28.88,3,no,northeast,6748.5912,Tamil Nadu,None,Doctor,524589,3,Yes
+33,male,42.46,1,no,southeast,11326.71487,Karnataka,Asthma,Self-employed,204692,5,No
+58,male,38.0,0,no,southwest,11365.952,Gujarat,Asthma,Self-employed,624087,1,No
+44,female,38.95,0,yes,northwest,42983.4585,Delhi,Asthma,Teacher,429725,0,No
+53,male,36.1,1,no,southwest,10085.846,Karnataka,Hypertension,Teacher,726571,2,Yes
+24,male,29.3,0,no,southwest,1977.815,West Bengal,None,Self-employed,511636,2,No
+29,female,35.53,0,no,southeast,3366.6697,Kerala,None,Labour,331529,0,No
+40,male,22.705,2,no,northeast,7173.35995,Delhi,Diabetes,Labour,293530,2,No
+51,male,39.7,1,no,southwest,9391.346,Andhra Pradesh,None,Doctor,653974,6,Yes
+64,male,38.19,0,no,northeast,14410.9321,Uttar Pradesh,Hypertension,Clerk,610590,0,Yes
+19,female,24.51,1,no,northwest,2709.1119,Delhi,None,Doctor,722601,0,Yes
+35,female,38.095,2,no,northeast,24915.04626,West Bengal,Heart Disease,Clerk,501092,3,Yes
+39,male,26.41,0,yes,northeast,20149.3229,Rajasthan,Hypertension,Teacher,494347,7,No
+56,male,33.66,4,no,southeast,12949.1554,Uttar Pradesh,Asthma,Engineer,461728,1,No
+33,male,42.4,5,no,southwest,6666.243,Maharashtra,None,Doctor,434170,1,No
+42,male,28.31,3,yes,northwest,32787.45859,Gujarat,Asthma,Doctor,460757,3,Yes
+61,male,33.915,0,no,northeast,13143.86485,Maharashtra,Heart Disease,Clerk,521746,2,Yes
+23,female,34.96,3,no,northwest,4466.6214,Delhi,Diabetes,Teacher,415609,1,Yes
+43,male,35.31,2,no,southeast,18806.14547,Maharashtra,Hypertension,Teacher,333071,2,Yes
+48,male,30.78,3,no,northeast,10141.1362,West Bengal,Hypertension,Clerk,515987,4,No
+39,male,26.22,1,no,northwest,6123.5688,Andhra Pradesh,None,Teacher,413380,2,Yes
+40,female,23.37,3,no,northeast,8252.2843,Kerala,Diabetes,Self-employed,176056,3,Yes
+18,male,28.5,0,no,northeast,1712.227,Gujarat,None,Labour,555256,2,No
+58,female,32.965,0,no,northeast,12430.95335,Maharashtra,None,Self-employed,389194,4,No
+49,female,42.68,2,no,southeast,9800.8882,Maharashtra,None,Engineer,566178,3,No
+53,female,39.6,1,no,southeast,10579.711,Delhi,None,Doctor,563784,2,No
+48,female,31.13,0,no,southeast,8280.6227,Kerala,None,Engineer,528359,1,Yes
+45,female,36.3,2,no,southeast,8527.532,Karnataka,None,Doctor,749681,1,No
+59,female,35.2,0,no,southeast,12244.531,Maharashtra,Heart Disease,Labour,486194,2,No
+52,female,25.3,2,yes,southeast,24667.419,West Bengal,Diabetes,Teacher,471436,2,No
+26,female,42.4,1,no,southwest,3410.324,Rajasthan,Heart Disease,Self-employed,568367,2,No
+27,male,33.155,2,no,northwest,4058.71245,Gujarat,Diabetes,Clerk,494455,0,Yes
+48,female,35.91,1,no,northeast,26392.26029,Maharashtra,None,Self-employed,616049,0,No
+57,female,28.785,4,no,northeast,14394.39815,West Bengal,Diabetes,Labour,373119,2,Yes
+37,male,46.53,3,no,southeast,6435.6237,West Bengal,Diabetes,Engineer,374782,1,No
+57,female,23.98,1,no,southeast,22192.43711,Gujarat,None,Clerk,576580,4,No
+32,female,31.54,1,no,northeast,5148.5526,Karnataka,Hypertension,Teacher,383518,3,No
+18,male,33.66,0,no,southeast,1136.3994,West Bengal,None,Labour,560909,0,No
+64,female,22.99,0,yes,southeast,27037.9141,Rajasthan,Hypertension,Clerk,537000,4,No
+43,male,38.06,2,yes,southeast,42560.4304,West Bengal,Hypertension,Labour,430551,3,Yes
+49,male,28.7,1,no,southwest,8703.456,West Bengal,None,Labour,536717,2,No
+40,female,32.775,2,yes,northwest,40003.33225,West Bengal,None,Teacher,376540,1,No
+62,male,32.015,0,yes,northeast,45710.20785,Andhra Pradesh,Hypertension,Doctor,400010,0,Yes
+40,female,29.81,1,no,southeast,6500.2359,Andhra Pradesh,Diabetes,Clerk,476281,4,No
+30,male,31.57,3,no,southeast,4837.5823,Karnataka,None,Teacher,507892,1,No
+29,female,31.16,0,no,northeast,3943.5954,Maharashtra,Heart Disease,Labour,469636,2,No
+36,male,29.7,0,no,southeast,4399.731,West Bengal,None,Teacher,543311,4,No
+41,female,31.02,0,no,southeast,6185.3208,Kerala,Hypertension,Doctor,538846,3,No
+44,female,43.89,2,yes,southeast,46200.9851,Maharashtra,Heart Disease,Self-employed,652936,1,Yes
+45,male,21.375,0,no,northwest,7222.78625,Karnataka,None,Clerk,490471,0,Yes
+55,female,40.81,3,no,southeast,12485.8009,Tamil Nadu,None,Doctor,619456,1,No
+60,male,31.35,3,yes,northwest,46130.5265,Maharashtra,None,Engineer,592072,3,No
+56,male,36.1,3,no,southwest,12363.547,Maharashtra,None,Clerk,729397,2,No
+49,female,23.18,2,no,northwest,10156.7832,Uttar Pradesh,None,Doctor,487274,0,Yes
+21,female,17.4,1,no,southwest,2585.269,Delhi,Hypertension,Labour,457964,2,Yes
+19,male,20.3,0,no,southwest,1242.26,Uttar Pradesh,None,Clerk,625769,3,Yes
+39,male,35.3,2,yes,southwest,40103.89,Rajasthan,Diabetes,Clerk,538543,1,No
+53,male,24.32,0,no,northwest,9863.4718,Andhra Pradesh,Heart Disease,Teacher,628165,3,No
+33,female,18.5,1,no,southwest,4766.022,Andhra Pradesh,Asthma,Labour,571679,1,No
+53,male,26.41,2,no,northeast,11244.3769,Delhi,Hypertension,Engineer,289323,4,Yes
+42,male,26.125,2,no,northeast,7729.64575,Gujarat,None,Self-employed,537632,4,Yes
+40,male,41.69,0,no,southeast,5438.7491,Gujarat,Hypertension,Doctor,531121,0,No
+47,female,24.1,1,no,southwest,26236.57997,Karnataka,Diabetes,Teacher,513310,0,Yes
+27,male,31.13,1,yes,southeast,34806.4677,Delhi,Diabetes,Doctor,486775,3,No
+21,male,27.36,0,no,northeast,2104.1134,Maharashtra,None,Engineer,340785,1,No
+47,male,36.2,1,no,southwest,8068.185,Gujarat,Asthma,Engineer,587417,1,No
+20,male,32.395,1,no,northwest,2362.22905,West Bengal,Diabetes,Clerk,537376,3,No
+24,male,23.655,0,no,northwest,2352.96845,Kerala,None,Engineer,610195,2,No
+27,female,34.8,1,no,southwest,3577.999,Maharashtra,None,Doctor,346124,0,Yes
+26,female,40.185,0,no,northwest,3201.24515,Rajasthan,Diabetes,Labour,550713,4,No
+53,female,32.3,2,no,northeast,29186.48236,West Bengal,Asthma,Labour,476534,1,No
+41,male,35.75,1,yes,southeast,40273.6455,West Bengal,Hypertension,Clerk,514378,3,Yes
+56,male,33.725,0,no,northwest,10976.24575,Delhi,Hypertension,Self-employed,477684,2,No
+23,female,39.27,2,no,southeast,3500.6123,Karnataka,None,Doctor,554360,2,Yes
+21,female,34.87,0,no,southeast,2020.5523,Rajasthan,Diabetes,Doctor,483712,1,Yes
+50,female,44.745,0,no,northeast,9541.69555,Gujarat,Diabetes,Engineer,394808,1,Yes
+53,male,41.47,0,no,southeast,9504.3103,Delhi,None,Doctor,508642,2,No
+34,female,26.41,1,no,northwest,5385.3379,Gujarat,None,Teacher,478582,1,No
+47,female,29.545,1,no,northwest,8930.93455,Delhi,Hypertension,Self-employed,491660,1,No
+33,female,32.9,2,no,southwest,5375.038,Delhi,None,Engineer,181218,0,Yes
+51,female,38.06,0,yes,southeast,44400.4064,Delhi,Diabetes,Teacher,568263,1,No
+49,male,28.69,3,no,northwest,10264.4421,Karnataka,None,Clerk,468533,3,No
+31,female,30.495,3,no,northeast,6113.23105,Delhi,None,Labour,365184,3,No
+36,female,27.74,0,no,northeast,5469.0066,Tamil Nadu,None,Clerk,592256,2,Yes
+18,male,35.2,1,no,southeast,1727.54,Kerala,Heart Disease,Labour,563636,0,Yes
+50,female,23.54,2,no,southeast,10107.2206,Gujarat,Asthma,Clerk,467267,2,Yes
+43,female,30.685,2,no,northwest,8310.83915,Maharashtra,Heart Disease,Doctor,384783,4,No
+20,male,40.47,0,no,northeast,1984.4533,Uttar Pradesh,Diabetes,Teacher,517803,3,No
+24,female,22.6,0,no,southwest,2457.502,Rajasthan,None,Labour,512310,0,No
+60,male,28.9,0,no,southwest,12146.971,Andhra Pradesh,Diabetes,Engineer,592433,1,No
+49,female,22.61,1,no,northwest,9566.9909,Karnataka,Diabetes,Teacher,455626,3,No
+60,male,24.32,1,no,northwest,13112.6048,Maharashtra,Asthma,Engineer,619492,2,No
+51,female,36.67,2,no,northwest,10848.1343,West Bengal,None,Teacher,445974,1,No
+58,female,33.44,0,no,northwest,12231.6136,Tamil Nadu,Diabetes,Teacher,365416,3,Yes
+51,female,40.66,0,no,northeast,9875.6804,Andhra Pradesh,None,Clerk,386771,2,Yes
+53,male,36.6,3,no,southwest,11264.541,Uttar Pradesh,None,Labour,493758,1,No
+62,male,37.4,0,no,southwest,12979.358,Maharashtra,Hypertension,Labour,493448,2,No
+19,male,35.4,0,no,southwest,1263.249,Andhra Pradesh,Diabetes,Teacher,532786,1,Yes
+50,female,27.075,1,no,northeast,10106.13425,Maharashtra,None,Doctor,490962,2,No
+30,female,39.05,3,yes,southeast,40932.4295,Tamil Nadu,None,Doctor,597731,0,No
+41,male,28.405,1,no,northwest,6664.68595,Uttar Pradesh,Diabetes,Engineer,473890,3,No
+29,female,21.755,1,yes,northeast,16657.71745,West Bengal,Hypertension,Engineer,300372,3,No
+18,female,40.28,0,no,northeast,2217.6012,Delhi,Asthma,Clerk,487890,1,No
+41,female,36.08,1,no,southeast,6781.3542,Gujarat,Heart Disease,Teacher,299322,2,No
+35,male,24.42,3,yes,southeast,19361.9988,West Bengal,Hypertension,Engineer,527139,2,Yes
+53,male,21.4,1,no,southwest,10065.413,Delhi,None,Engineer,605719,0,No
+24,female,30.1,3,no,southwest,4234.927,Karnataka,Hypertension,Self-employed,401377,4,No
+48,female,27.265,1,no,northeast,9447.25035,Kerala,Diabetes,Teacher,641855,1,No
+59,female,32.1,3,no,southwest,14007.222,Rajasthan,None,Clerk,584283,4,No
+49,female,34.77,1,no,northwest,9583.8933,Rajasthan,Asthma,Engineer,620648,3,Yes
+37,female,38.39,0,yes,southeast,40419.0191,Gujarat,None,Clerk,518956,4,No
+26,male,23.7,2,no,southwest,3484.331,Uttar Pradesh,Heart Disease,Labour,400723,1,Yes
+23,male,31.73,3,yes,northeast,36189.1017,Tamil Nadu,Diabetes,Clerk,578081,1,No
+29,male,35.5,2,yes,southwest,44585.45587,Uttar Pradesh,Hypertension,Doctor,437539,2,No
+45,male,24.035,2,no,northeast,8604.48365,Tamil Nadu,Hypertension,Doctor,511788,0,No
+27,male,29.15,0,yes,southeast,18246.4955,Uttar Pradesh,Asthma,Clerk,482864,1,No
+53,male,34.105,0,yes,northeast,43254.41795,Kerala,Hypertension,Doctor,612469,4,No
+31,female,26.62,0,no,southeast,3757.8448,Karnataka,Hypertension,Labour,573032,1,Yes
+50,male,26.41,0,no,northwest,8827.2099,Karnataka,None,Teacher,491943,1,No
+50,female,30.115,1,no,northwest,9910.35985,Delhi,Diabetes,Doctor,304839,5,Yes
+34,male,27.0,2,no,southwest,11737.84884,Andhra Pradesh,None,Doctor,436477,3,No
+19,male,21.755,0,no,northwest,1627.28245,Karnataka,Hypertension,Clerk,570422,4,Yes
+47,female,36.0,1,no,southwest,8556.907,Karnataka,Diabetes,Labour,528011,4,No
+28,male,30.875,0,no,northwest,3062.50825,West Bengal,Hypertension,Teacher,349677,2,No
+37,female,26.4,0,yes,southeast,19539.243,West Bengal,None,Clerk,319341,2,No
+21,male,28.975,0,no,northwest,1906.35825,Delhi,None,Clerk,519550,2,No
+64,male,37.905,0,no,northwest,14210.53595,Andhra Pradesh,Hypertension,Self-employed,394294,2,No
+58,female,22.77,0,no,southeast,11833.7823,Gujarat,None,Labour,403920,3,No
+24,male,33.63,4,no,northeast,17128.42608,West Bengal,None,Teacher,567260,1,No
+31,male,27.645,2,no,northeast,5031.26955,Gujarat,None,Labour,620223,4,No
+39,female,22.8,3,no,northeast,7985.815,Maharashtra,Heart Disease,Teacher,424929,2,No
+47,female,27.83,0,yes,southeast,23065.4207,West Bengal,Hypertension,Labour,495523,3,No
+30,male,37.43,3,no,northeast,5428.7277,Kerala,None,Clerk,492575,2,No
+18,male,38.17,0,yes,southeast,36307.7983,Andhra Pradesh,None,Clerk,483579,2,No
+22,female,34.58,2,no,northeast,3925.7582,Delhi,None,Engineer,504059,1,No
+23,male,35.2,1,no,southwest,2416.955,Maharashtra,Hypertension,Doctor,575649,1,No
+33,male,27.1,1,yes,southwest,19040.876,Andhra Pradesh,Hypertension,Self-employed,432607,1,Yes
+27,male,26.03,0,no,northeast,3070.8087,Kerala,None,Labour,347472,4,No
+45,female,25.175,2,no,northeast,9095.06825,Andhra Pradesh,None,Self-employed,669000,1,No
+57,female,31.825,0,no,northwest,11842.62375,Kerala,None,Engineer,608942,2,No
+47,male,32.3,1,no,southwest,8062.764,Kerala,Hypertension,Doctor,389636,1,No
+42,female,29.0,1,no,southwest,7050.642,Gujarat,Hypertension,Labour,513563,2,Yes
+64,female,39.7,0,no,southwest,14319.031,Uttar Pradesh,None,Teacher,601070,3,Yes
+38,female,19.475,2,no,northwest,6933.24225,Maharashtra,None,Doctor,574904,2,No
+61,male,36.1,3,no,southwest,27941.28758,Andhra Pradesh,None,Clerk,546201,2,No
+53,female,26.7,2,no,southwest,11150.78,Tamil Nadu,Heart Disease,Engineer,482977,0,No
+44,female,36.48,0,no,northeast,12797.20962,Maharashtra,None,Doctor,672730,0,No
+19,female,28.88,0,yes,northwest,17748.5062,Uttar Pradesh,Hypertension,Doctor,522085,0,No
+41,male,34.2,2,no,northwest,7261.741,Maharashtra,Hypertension,Clerk,448504,3,No
+51,male,33.33,3,no,southeast,10560.4917,Karnataka,None,Labour,587107,3,No
+40,male,32.3,2,no,northwest,6986.697,Tamil Nadu,None,Teacher,509605,2,No
+45,male,39.805,0,no,northeast,7448.40395,Uttar Pradesh,None,Clerk,534979,0,No
+35,male,34.32,3,no,southeast,5934.3798,Gujarat,Hypertension,Teacher,520314,3,Yes
+53,male,28.88,0,no,northwest,9869.8102,Andhra Pradesh,Hypertension,Labour,549677,1,No
+30,male,24.4,3,yes,southwest,18259.216,Rajasthan,Hypertension,Doctor,402154,1,No
+18,male,41.14,0,no,southeast,1146.7966,Uttar Pradesh,Diabetes,Teacher,354889,2,No
+51,male,35.97,1,no,southeast,9386.1613,Delhi,None,Engineer,643413,3,No
+50,female,27.6,1,yes,southwest,24520.264,Andhra Pradesh,Heart Disease,Engineer,524958,2,No
+31,female,29.26,1,no,southeast,4350.5144,Uttar Pradesh,Hypertension,Clerk,577084,2,Yes
+35,female,27.7,3,no,southwest,6414.178,Karnataka,None,Labour,324024,3,No
+60,male,36.955,0,no,northeast,12741.16745,Rajasthan,Heart Disease,Clerk,606668,6,Yes
+21,male,36.86,0,no,northwest,1917.3184,Karnataka,Hypertension,Clerk,447851,2,No
+29,male,22.515,3,no,northeast,5209.57885,Rajasthan,Diabetes,Self-employed,419378,0,No
+62,female,29.92,0,no,southeast,13457.9608,Delhi,Hypertension,Clerk,493662,3,No
+39,female,41.8,0,no,southeast,5662.225,Andhra Pradesh,Asthma,Self-employed,402201,0,Yes
+19,male,27.6,0,no,southwest,1252.407,Gujarat,Hypertension,Engineer,499826,1,Yes
+22,female,23.18,0,no,northeast,2731.9122,Karnataka,None,Engineer,486366,0,Yes
+53,male,20.9,0,yes,southeast,21195.818,Karnataka,None,Clerk,606039,5,Yes
+39,female,31.92,2,no,northwest,7209.4918,Kerala,Heart Disease,Engineer,651334,0,No
+27,male,28.5,0,yes,northwest,18310.742,Rajasthan,None,Labour,648151,7,No
+30,male,44.22,2,no,southeast,4266.1658,West Bengal,None,Self-employed,273548,2,No
+30,female,22.895,1,no,northeast,4719.52405,Andhra Pradesh,Diabetes,Self-employed,406483,4,Yes
+58,female,33.1,0,no,southwest,11848.141,Rajasthan,Diabetes,Clerk,272511,4,No
+33,male,24.795,0,yes,northeast,17904.52705,Kerala,Hypertension,Engineer,380645,1,No
+42,female,26.18,1,no,southeast,7046.7222,Maharashtra,Heart Disease,Teacher,435048,2,Yes
+64,female,35.97,0,no,southeast,14313.8463,Rajasthan,None,Self-employed,541056,1,No
+21,male,22.3,1,no,southwest,2103.08,Gujarat,None,Clerk,448006,2,Yes
+18,female,42.24,0,yes,southeast,38792.6856,Andhra Pradesh,None,Clerk,450792,0,Yes
+23,male,26.51,0,no,southeast,1815.8759,Kerala,Asthma,Labour,518176,3,No
+45,female,35.815,0,no,northwest,7731.85785,Maharashtra,Hypertension,Doctor,329069,2,No
+40,female,41.42,1,no,northwest,28476.73499,Tamil Nadu,None,Doctor,416140,2,No
+19,female,36.575,0,no,northwest,2136.88225,Kerala,Asthma,Self-employed,449644,3,No
+18,male,30.14,0,no,southeast,1131.5066,Tamil Nadu,Asthma,Labour,479759,0,No
+25,male,25.84,1,no,northeast,3309.7926,Andhra Pradesh,Asthma,Labour,507695,2,No
+46,female,30.8,3,no,southwest,9414.92,Karnataka,Heart Disease,Labour,650064,0,No
+33,female,42.94,3,no,northwest,6360.9936,Kerala,None,Self-employed,590833,0,No
+54,male,21.01,2,no,southeast,11013.7119,Delhi,Hypertension,Doctor,423068,4,Yes
+28,male,22.515,2,no,northeast,4428.88785,Tamil Nadu,Diabetes,Labour,473867,1,Yes
+36,male,34.43,2,no,southeast,5584.3057,Gujarat,Asthma,Engineer,467056,2,No
+20,female,31.46,0,no,southeast,1877.9294,Delhi,Hypertension,Clerk,448584,0,No
+24,female,24.225,0,no,northwest,2842.76075,Uttar Pradesh,Hypertension,Clerk,527251,0,Yes
+23,male,37.1,3,no,southwest,3597.596,Uttar Pradesh,Hypertension,Teacher,314022,4,No
+47,female,26.125,1,yes,northeast,23401.30575,Maharashtra,None,Teacher,588071,0,Yes
+33,female,35.53,0,yes,northwest,55135.40209,Karnataka,Diabetes,Self-employed,669355,2,No
+45,male,33.7,1,no,southwest,7445.918,Andhra Pradesh,Heart Disease,Self-employed,473015,1,Yes
+26,male,17.67,0,no,northwest,2680.9493,Kerala,Heart Disease,Clerk,471063,2,No
+18,female,31.13,0,no,southeast,1621.8827,West Bengal,None,Engineer,515704,2,No
+44,female,29.81,2,no,southeast,8219.2039,Gujarat,None,Doctor,601938,2,Yes
+60,male,24.32,0,no,northwest,12523.6048,Tamil Nadu,None,Doctor,467570,2,No
+64,female,31.825,2,no,northeast,16069.08475,Andhra Pradesh,Hypertension,Self-employed,593394,2,No
+56,male,31.79,2,yes,southeast,43813.8661,Delhi,Asthma,Engineer,548849,1,Yes
+36,male,28.025,1,yes,northeast,20773.62775,Uttar Pradesh,None,Self-employed,736161,1,Yes
+41,male,30.78,3,yes,northeast,39597.4072,Gujarat,Diabetes,Doctor,467133,1,No
+39,male,21.85,1,no,northwest,6117.4945,West Bengal,Asthma,Self-employed,302399,5,No
+63,male,33.1,0,no,southwest,13393.756,Kerala,Hypertension,Labour,356706,3,No
+36,female,25.84,0,no,northwest,5266.3656,Maharashtra,Diabetes,Self-employed,501192,2,Yes
+28,female,23.845,2,no,northwest,4719.73655,West Bengal,Diabetes,Clerk,602788,1,No
+58,male,34.39,0,no,northwest,11743.9341,Gujarat,Diabetes,Self-employed,434749,3,Yes
+36,male,33.82,1,no,northwest,5377.4578,West Bengal,None,Clerk,476906,0,No
+42,male,35.97,2,no,southeast,7160.3303,Gujarat,Diabetes,Engineer,568484,2,No
+36,male,31.5,0,no,southwest,4402.233,Gujarat,Hypertension,Doctor,403476,1,No
+56,female,28.31,0,no,northeast,11657.7189,Rajasthan,Asthma,Teacher,438873,3,No
+35,female,23.465,2,no,northeast,6402.29135,Tamil Nadu,Hypertension,Teacher,383227,1,No
+59,female,31.35,0,no,northwest,12622.1795,Uttar Pradesh,Hypertension,Doctor,617822,0,No
+21,male,31.1,0,no,southwest,1526.312,Rajasthan,None,Teacher,654167,2,No
+59,male,24.7,0,no,northeast,12323.936,Kerala,Diabetes,Self-employed,342058,3,No
+23,female,32.78,2,yes,southeast,36021.0112,Rajasthan,None,Engineer,485781,1,No
+57,female,29.81,0,yes,southeast,27533.9129,Karnataka,None,Engineer,640725,2,No
+53,male,30.495,0,no,northeast,10072.05505,Karnataka,Hypertension,Doctor,539869,1,No
+60,female,32.45,0,yes,southeast,45008.9555,Uttar Pradesh,Heart Disease,Teacher,451076,3,No
+51,female,34.2,1,no,southwest,9872.701,West Bengal,None,Self-employed,345383,2,No
+23,male,50.38,1,no,southeast,2438.0552,Tamil Nadu,Diabetes,Engineer,615294,1,No
+27,female,24.1,0,no,southwest,2974.126,Uttar Pradesh,Asthma,Engineer,536051,4,No
+55,male,32.775,0,no,northwest,10601.63225,Gujarat,None,Labour,352701,0,No
+37,female,30.78,0,yes,northeast,37270.1512,Delhi,Diabetes,Labour,618989,7,No
+61,male,32.3,2,no,northwest,14119.62,Tamil Nadu,Hypertension,Engineer,339959,2,No
+46,female,35.53,0,yes,northeast,42111.6647,Tamil Nadu,Hypertension,Doctor,477951,4,No
+53,female,23.75,2,no,northeast,11729.6795,Gujarat,None,Clerk,473538,3,No
+49,female,23.845,3,yes,northeast,24106.91255,Gujarat,None,Clerk,661838,3,No
+20,female,29.6,0,no,southwest,1875.344,Maharashtra,Hypertension,Self-employed,473895,6,No
+48,female,33.11,0,yes,southeast,40974.1649,Uttar Pradesh,Diabetes,Engineer,473535,1,No
+25,male,24.13,0,yes,northwest,15817.9857,Gujarat,None,Engineer,363692,0,No
+25,female,32.23,1,no,southeast,18218.16139,Karnataka,Hypertension,Engineer,435960,3,Yes
+57,male,28.1,0,no,southwest,10965.446,Kerala,None,Doctor,418270,1,Yes
+37,female,47.6,2,yes,southwest,46113.511,Delhi,Hypertension,Labour,423477,0,Yes
+38,female,28.0,3,no,southwest,7151.092,Uttar Pradesh,None,Engineer,500628,0,No
+55,female,33.535,2,no,northwest,12269.68865,Andhra Pradesh,Heart Disease,Engineer,256582,1,No
+36,female,19.855,0,no,northeast,5458.04645,Karnataka,None,Teacher,348976,3,Yes
+51,male,25.4,0,no,southwest,8782.469,West Bengal,None,Doctor,488898,5,No
+40,male,29.9,2,no,southwest,6600.361,Gujarat,None,Self-employed,512125,1,No
+18,male,37.29,0,no,southeast,1141.4451,Andhra Pradesh,None,Engineer,476656,4,No
+57,male,43.7,1,no,southwest,11576.13,Gujarat,Asthma,Teacher,495920,3,No
+61,male,23.655,0,no,northeast,13129.60345,Tamil Nadu,Heart Disease,Clerk,459088,2,No
+25,female,24.3,3,no,southwest,4391.652,Karnataka,None,Self-employed,498149,2,Yes
+50,male,36.2,0,no,southwest,8457.818,Tamil Nadu,Diabetes,Engineer,543414,1,No
+26,female,29.48,1,no,southeast,3392.3652,Maharashtra,Hypertension,Engineer,542713,3,Yes
+42,male,24.86,0,no,southeast,5966.8874,Tamil Nadu,Asthma,Teacher,431104,3,No
+43,male,30.1,1,no,southwest,6849.026,Maharashtra,Diabetes,Doctor,591509,6,No
+44,male,21.85,3,no,northeast,8891.1395,Maharashtra,None,Engineer,515710,2,Yes
+23,female,28.12,0,no,northwest,2690.1138,Andhra Pradesh,Diabetes,Clerk,623221,2,Yes
+49,female,27.1,1,no,southwest,26140.3603,Gujarat,Hypertension,Engineer,643287,2,No
+33,male,33.44,5,no,southeast,6653.7886,West Bengal,None,Clerk,355727,2,No
+41,male,28.8,1,no,southwest,6282.235,Tamil Nadu,Hypertension,Self-employed,414097,3,No
+37,female,29.5,2,no,southwest,6311.952,Karnataka,None,Self-employed,581354,3,Yes
+22,male,34.8,3,no,southwest,3443.064,Maharashtra,Hypertension,Labour,333510,2,Yes
+23,male,27.36,1,no,northwest,2789.0574,Gujarat,None,Labour,642017,3,No
+21,female,22.135,0,no,northeast,2585.85065,Delhi,Diabetes,Clerk,465611,2,Yes
+51,female,37.05,3,yes,northeast,46255.1125,Uttar Pradesh,Diabetes,Doctor,557503,1,No
+25,male,26.695,4,no,northwest,4877.98105,Andhra Pradesh,Hypertension,Engineer,488360,1,Yes
+32,male,28.93,1,yes,southeast,19719.6947,West Bengal,None,Engineer,360761,2,No
+57,male,28.975,0,yes,northeast,27218.43725,Rajasthan,Diabetes,Labour,605554,1,Yes
+36,female,30.02,0,no,northwest,5272.1758,Andhra Pradesh,Diabetes,Clerk,775072,3,Yes
+22,male,39.5,0,no,southwest,1682.597,Delhi,Diabetes,Engineer,448499,3,No
+57,male,33.63,1,no,northwest,11945.1327,Uttar Pradesh,Hypertension,Engineer,467764,1,No
+64,female,26.885,0,yes,northwest,29330.98315,Delhi,Hypertension,Doctor,235090,4,Yes
+36,female,29.04,4,no,southeast,7243.8136,Tamil Nadu,Asthma,Teacher,635150,4,Yes
+54,male,24.035,0,no,northeast,10422.91665,Maharashtra,None,Labour,591176,2,Yes
+47,male,38.94,2,yes,southeast,44202.6536,West Bengal,Asthma,Labour,326661,2,No
+62,male,32.11,0,no,northeast,13555.0049,Kerala,Diabetes,Teacher,293511,5,No
+61,female,44.0,0,no,southwest,13063.883,Maharashtra,None,Engineer,305076,2,Yes
+43,female,20.045,2,yes,northeast,19798.05455,Kerala,None,Doctor,564516,5,No
+19,male,25.555,1,no,northwest,2221.56445,Uttar Pradesh,None,Doctor,574499,3,No
+18,female,40.26,0,no,southeast,1634.5734,Gujarat,Hypertension,Labour,407666,3,No
+19,female,22.515,0,no,northwest,2117.33885,Rajasthan,Hypertension,Doctor,549926,1,No
+49,male,22.515,0,no,northeast,8688.85885,Karnataka,Hypertension,Self-employed,515887,3,No
+60,male,40.92,0,yes,southeast,48673.5588,Maharashtra,Diabetes,Teacher,463273,0,Yes
+26,male,27.265,3,no,northeast,4661.28635,West Bengal,Diabetes,Engineer,597019,3,Yes
+49,male,36.85,0,no,southeast,8125.7845,Delhi,None,Self-employed,379506,1,No
+60,female,35.1,0,no,southwest,12644.589,West Bengal,None,Teacher,614753,0,No
+26,female,29.355,2,no,northeast,4564.19145,Uttar Pradesh,Diabetes,Clerk,427147,1,No
+27,male,32.585,3,no,northeast,4846.92015,Kerala,None,Labour,678153,5,No
+44,female,32.34,1,no,southeast,7633.7206,Delhi,None,Doctor,399469,0,No
+63,male,39.8,3,no,southwest,15170.069,Karnataka,Diabetes,Clerk,464842,3,No
+32,female,24.6,0,yes,southwest,17496.306,Karnataka,Hypertension,Doctor,505858,1,Yes
+22,male,28.31,1,no,northwest,2639.0429,Maharashtra,Heart Disease,Self-employed,505231,2,No
+18,male,31.73,0,yes,northeast,33732.6867,Uttar Pradesh,Heart Disease,Engineer,549082,3,Yes
+59,female,26.695,3,no,northwest,14382.70905,Gujarat,Hypertension,Engineer,371431,4,Yes
+44,female,27.5,1,no,southwest,7626.993,Uttar Pradesh,Diabetes,Engineer,496268,0,No
+33,male,24.605,2,no,northwest,5257.50795,Kerala,Hypertension,Doctor,513813,1,Yes
+24,female,33.99,0,no,southeast,2473.3341,West Bengal,Hypertension,Clerk,447226,4,Yes
+43,female,26.885,0,yes,northwest,21774.32215,Karnataka,None,Engineer,540405,1,Yes
+45,male,22.895,0,yes,northeast,35069.37452,West Bengal,Diabetes,Clerk,365363,4,No
+61,female,28.2,0,no,southwest,13041.921,West Bengal,Asthma,Doctor,467354,5,No
+35,female,34.21,1,no,southeast,5245.2269,West Bengal,None,Self-employed,424681,1,Yes
+62,female,25.0,0,no,southwest,13451.122,Karnataka,Diabetes,Clerk,467656,2,No
+62,female,33.2,0,no,southwest,13462.52,Andhra Pradesh,Diabetes,Self-employed,644703,3,Yes
+38,male,31.0,1,no,southwest,5488.262,Tamil Nadu,None,Doctor,646645,1,No
+34,male,35.815,0,no,northwest,4320.41085,Kerala,None,Doctor,627041,3,No
+43,male,23.2,0,no,southwest,6250.435,Andhra Pradesh,None,Labour,453774,2,No
+50,male,32.11,2,no,northeast,25333.33284,Kerala,None,Doctor,590761,3,No
+19,female,23.4,2,no,southwest,2913.569,Delhi,None,Doctor,511236,1,No
+57,female,20.1,1,no,southwest,12032.326,Uttar Pradesh,Asthma,Teacher,504558,0,No
+62,female,39.16,0,no,southeast,13470.8044,Uttar Pradesh,None,Engineer,492263,3,No
+41,male,34.21,1,no,southeast,6289.7549,Rajasthan,Diabetes,Labour,675841,0,No
+26,male,46.53,1,no,southeast,2927.0647,Uttar Pradesh,None,Labour,636583,1,No
+39,female,32.5,1,no,southwest,6238.298,Karnataka,Heart Disease,Labour,574489,0,No
+46,male,25.8,5,no,southwest,10096.97,Gujarat,None,Teacher,482969,2,Yes
+45,female,35.3,0,no,southwest,7348.142,Maharashtra,Diabetes,Self-employed,503956,1,Yes
+32,male,37.18,2,no,southeast,4673.3922,Rajasthan,Asthma,Doctor,553056,1,No
+59,female,27.5,0,no,southwest,12233.828,Maharashtra,Asthma,Engineer,447839,1,No
+44,male,29.735,2,no,northeast,32108.66282,Kerala,None,Clerk,593831,0,No
+39,female,24.225,5,no,northwest,8965.79575,Maharashtra,Asthma,Self-employed,407875,1,Yes
+18,male,26.18,2,no,southeast,2304.0022,Maharashtra,Diabetes,Doctor,539184,0,Yes
+53,male,29.48,0,no,southeast,9487.6442,Rajasthan,Diabetes,Teacher,271028,2,No
+18,male,23.21,0,no,southeast,1121.8739,Delhi,None,Doctor,444938,3,No
+50,female,46.09,1,no,southeast,9549.5651,West Bengal,None,Doctor,707767,2,Yes
+18,female,40.185,0,no,northeast,2217.46915,Uttar Pradesh,Hypertension,Teacher,603619,3,No
+19,male,22.61,0,no,northwest,1628.4709,Uttar Pradesh,Diabetes,Labour,653546,2,No
+62,male,39.93,0,no,southeast,12982.8747,Karnataka,Diabetes,Labour,433269,1,No
+56,female,35.8,1,no,southwest,11674.13,Rajasthan,Hypertension,Engineer,510377,3,No
+42,male,35.8,2,no,southwest,7160.094,Karnataka,Hypertension,Engineer,628199,0,No
+37,male,34.2,1,yes,northeast,39047.285,Gujarat,None,Labour,563309,0,No
+42,male,31.255,0,no,northwest,6358.77645,Gujarat,Hypertension,Self-employed,550856,1,No
+25,male,29.7,3,yes,southwest,19933.458,Karnataka,None,Clerk,663058,4,Yes
+57,male,18.335,0,no,northeast,11534.87265,Rajasthan,Hypertension,Doctor,395954,4,No
+51,male,42.9,2,yes,southeast,47462.894,Karnataka,Hypertension,Clerk,481576,0,Yes
+30,female,28.405,1,no,northwest,4527.18295,Uttar Pradesh,Heart Disease,Doctor,324591,7,Yes
+44,male,30.2,2,yes,southwest,38998.546,Andhra Pradesh,None,Labour,390489,3,No
+34,male,27.835,1,yes,northwest,20009.63365,Tamil Nadu,None,Engineer,607418,3,No
+31,male,39.49,1,no,southeast,3875.7341,Maharashtra,None,Self-employed,408265,4,No
+54,male,30.8,1,yes,southeast,41999.52,Tamil Nadu,None,Engineer,573552,2,No
+24,male,26.79,1,no,northwest,12609.88702,Rajasthan,None,Clerk,665848,3,No
+43,male,34.96,1,yes,northeast,41034.2214,Tamil Nadu,Heart Disease,Engineer,482206,1,No
+48,male,36.67,1,no,northwest,28468.91901,Gujarat,None,Labour,551986,3,No
+19,female,39.615,1,no,northwest,2730.10785,Kerala,None,Self-employed,574331,1,No
+29,female,25.9,0,no,southwest,3353.284,Maharashtra,Hypertension,Clerk,377850,1,Yes
+63,female,35.2,1,no,southeast,14474.675,West Bengal,Diabetes,Self-employed,438354,2,No
+46,male,24.795,3,no,northeast,9500.57305,Rajasthan,Hypertension,Doctor,399633,2,No
+52,male,36.765,2,no,northwest,26467.09737,Maharashtra,None,Engineer,446327,2,No
+35,male,27.1,1,no,southwest,4746.344,Tamil Nadu,Diabetes,Self-employed,571611,2,No
+51,male,24.795,2,yes,northwest,23967.38305,Gujarat,None,Teacher,440480,3,No
+44,male,25.365,1,no,northwest,7518.02535,Delhi,None,Engineer,496484,3,No
+21,male,25.745,2,no,northeast,3279.86855,Andhra Pradesh,Heart Disease,Doctor,395753,4,No
+39,female,34.32,5,no,southeast,8596.8278,West Bengal,None,Self-employed,622642,3,No
+50,female,28.16,3,no,southeast,10702.6424,Andhra Pradesh,Diabetes,Clerk,445489,2,Yes
+34,female,23.56,0,no,northeast,4992.3764,Maharashtra,Diabetes,Doctor,652298,1,Yes
+22,female,20.235,0,no,northwest,2527.81865,Gujarat,None,Teacher,506092,2,No
+19,female,40.5,0,no,southwest,1759.338,Gujarat,Asthma,Self-employed,359300,4,Yes
+26,male,35.42,0,no,southeast,2322.6218,Tamil Nadu,None,Labour,482897,1,No
+29,male,22.895,0,yes,northeast,16138.76205,Uttar Pradesh,Hypertension,Engineer,393722,2,No
+48,male,40.15,0,no,southeast,7804.1605,Tamil Nadu,Heart Disease,Clerk,558934,1,Yes
+26,male,29.15,1,no,southeast,2902.9065,Uttar Pradesh,Diabetes,Labour,473863,1,Yes
+45,female,39.995,3,no,northeast,9704.66805,Uttar Pradesh,Heart Disease,Self-employed,516321,2,No
+36,female,29.92,0,no,southeast,4889.0368,West Bengal,None,Self-employed,463064,1,No
+54,male,25.46,1,no,northeast,25517.11363,Tamil Nadu,Diabetes,Doctor,444465,4,No
+34,male,21.375,0,no,northeast,4500.33925,Delhi,None,Self-employed,402637,1,No
+31,male,25.9,3,yes,southwest,19199.944,Karnataka,Hypertension,Clerk,583622,2,No
+27,female,30.59,1,no,northeast,16796.41194,Karnataka,Heart Disease,Labour,482684,1,No
+20,male,30.115,5,no,northeast,4915.05985,Tamil Nadu,None,Clerk,468530,4,No
+44,female,25.8,1,no,southwest,7624.63,Tamil Nadu,Hypertension,Teacher,480178,3,No
+43,male,30.115,3,no,northwest,8410.04685,Andhra Pradesh,None,Teacher,432113,1,Yes
+45,female,27.645,1,no,northwest,28340.18885,West Bengal,Diabetes,Engineer,468864,2,No
+34,male,34.675,0,no,northeast,4518.82625,Tamil Nadu,Diabetes,Engineer,520562,0,No
+24,female,20.52,0,yes,northeast,14571.8908,Andhra Pradesh,Heart Disease,Teacher,396586,3,Yes
+26,female,19.8,1,no,southwest,3378.91,Uttar Pradesh,Hypertension,Self-employed,411064,3,Yes
+38,female,27.835,2,no,northeast,7144.86265,Gujarat,None,Clerk,637828,2,No
+50,female,31.6,2,no,southwest,10118.424,Gujarat,None,Teacher,463724,4,Yes
+38,male,28.27,1,no,southeast,5484.4673,Uttar Pradesh,None,Engineer,444843,2,Yes
+27,female,20.045,3,yes,northwest,16420.49455,Rajasthan,None,Teacher,365612,3,No
+39,female,23.275,3,no,northeast,7986.47525,Andhra Pradesh,None,Self-employed,585067,1,No
+39,female,34.1,3,no,southwest,7418.522,Andhra Pradesh,Asthma,Teacher,394407,1,No
+63,female,36.85,0,no,southeast,13887.9685,Uttar Pradesh,Diabetes,Clerk,498470,4,No
+33,female,36.29,3,no,northeast,6551.7501,Delhi,Diabetes,Labour,329181,3,No
+36,female,26.885,0,no,northwest,5267.81815,Kerala,None,Self-employed,581817,1,No
+30,male,22.99,2,yes,northwest,17361.7661,Maharashtra,Asthma,Engineer,617685,2,Yes
+24,male,32.7,0,yes,southwest,34472.841,Uttar Pradesh,Hypertension,Clerk,548452,1,No
+24,male,25.8,0,no,southwest,1972.95,Tamil Nadu,None,Teacher,346551,1,No
+48,male,29.6,0,no,southwest,21232.18226,Tamil Nadu,Hypertension,Teacher,583876,1,No
+47,male,19.19,1,no,northeast,8627.5411,West Bengal,Diabetes,Labour,417265,0,No
+29,male,31.73,2,no,northwest,4433.3877,Uttar Pradesh,None,Engineer,382902,3,No
+28,male,29.26,2,no,northeast,4438.2634,West Bengal,Diabetes,Engineer,461653,1,No
+47,male,28.215,3,yes,northwest,24915.22085,Uttar Pradesh,Diabetes,Doctor,459663,3,No
+25,male,24.985,2,no,northeast,23241.47453,Andhra Pradesh,None,Engineer,449495,2,No
+51,male,27.74,1,no,northeast,9957.7216,Maharashtra,Heart Disease,Labour,627367,1,No
+48,female,22.8,0,no,southwest,8269.044,Andhra Pradesh,Asthma,Doctor,701182,5,No
+43,male,20.13,2,yes,southeast,18767.7377,Kerala,Hypertension,Doctor,363086,0,No
+61,female,33.33,4,no,southeast,36580.28216,Gujarat,Diabetes,Teacher,431116,6,No
+48,male,32.3,1,no,northwest,8765.249,Karnataka,Diabetes,Teacher,514274,2,Yes
+38,female,27.6,0,no,southwest,5383.536,Uttar Pradesh,Hypertension,Engineer,461128,2,Yes
+59,male,25.46,0,no,northwest,12124.9924,Kerala,Diabetes,Doctor,539939,0,No
+19,female,24.605,1,no,northwest,2709.24395,Gujarat,None,Teacher,591598,3,No
+26,female,34.2,2,no,southwest,3987.926,Rajasthan,Diabetes,Labour,574936,0,Yes
+54,female,35.815,3,no,northwest,12495.29085,Maharashtra,Asthma,Teacher,560973,1,Yes
+21,female,32.68,2,no,northwest,26018.95052,West Bengal,Diabetes,Self-employed,665909,0,No
+51,male,37.0,0,no,southwest,8798.593,West Bengal,None,Self-employed,341105,2,No
+22,female,31.02,3,yes,southeast,35595.5898,Andhra Pradesh,Hypertension,Teacher,648010,0,No
+47,male,36.08,1,yes,southeast,42211.1382,Tamil Nadu,None,Doctor,458700,2,No
+18,male,23.32,1,no,southeast,1711.0268,Gujarat,None,Doctor,578512,2,No
+47,female,45.32,1,no,southeast,8569.8618,Rajasthan,None,Clerk,397033,2,Yes
+21,female,34.6,0,no,southwest,2020.177,Kerala,None,Self-employed,409150,2,No
+19,male,26.03,1,yes,northwest,16450.8947,Maharashtra,Hypertension,Labour,566211,5,No
+23,male,18.715,0,no,northwest,21595.38229,Gujarat,Diabetes,Doctor,307126,1,Yes
+54,male,31.6,0,no,southwest,9850.432,Rajasthan,None,Engineer,598944,3,No
+37,female,17.29,2,no,northeast,6877.9801,Karnataka,Asthma,Self-employed,625996,1,No
+46,female,23.655,1,yes,northwest,21677.28345,Uttar Pradesh,Asthma,Labour,517778,1,No
+55,female,35.2,0,yes,southeast,44423.803,West Bengal,Asthma,Labour,514176,1,No
+30,female,27.93,0,no,northeast,4137.5227,Kerala,None,Doctor,416636,1,No
+18,male,21.565,0,yes,northeast,13747.87235,West Bengal,Diabetes,Labour,567444,3,No
+61,male,38.38,0,no,northwest,12950.0712,Kerala,Heart Disease,Doctor,534766,1,No
+54,female,23.0,3,no,southwest,12094.478,Andhra Pradesh,Hypertension,Teacher,407849,3,No
+22,male,37.07,2,yes,southeast,37484.4493,Tamil Nadu,None,Self-employed,460852,1,No
+45,female,30.495,1,yes,northwest,39725.51805,Kerala,None,Clerk,484066,3,No
+22,male,28.88,0,no,northeast,2250.8352,West Bengal,Diabetes,Teacher,460719,0,No
+19,male,27.265,2,no,northwest,22493.65964,Andhra Pradesh,Heart Disease,Self-employed,363708,2,No
+35,female,28.025,0,yes,northwest,20234.85475,Kerala,Diabetes,Doctor,569902,5,Yes
+18,male,23.085,0,no,northeast,1704.70015,Karnataka,Diabetes,Self-employed,475648,2,No
+20,male,30.685,0,yes,northeast,33475.81715,Tamil Nadu,None,Doctor,501536,0,No
+28,female,25.8,0,no,southwest,3161.454,Kerala,Hypertension,Teacher,442173,3,Yes
+55,male,35.245,1,no,northeast,11394.06555,Andhra Pradesh,Asthma,Engineer,547527,3,Yes
+43,female,24.7,2,yes,northwest,21880.82,Gujarat,None,Engineer,519869,2,No
+43,female,25.08,0,no,northeast,7325.0482,Delhi,Hypertension,Self-employed,621278,4,Yes
+22,male,52.58,1,yes,southeast,44501.3982,Rajasthan,Heart Disease,Engineer,548059,1,Yes
+25,female,22.515,1,no,northwest,3594.17085,Delhi,None,Doctor,479731,2,No
+49,male,30.9,0,yes,southwest,39727.614,Delhi,Diabetes,Labour,426028,3,Yes
+44,female,36.955,1,no,northwest,8023.13545,Maharashtra,None,Doctor,586595,0,No
+64,male,26.41,0,no,northeast,14394.5579,Karnataka,Hypertension,Labour,471742,2,No
+49,male,29.83,1,no,northeast,9288.0267,Gujarat,Diabetes,Teacher,482828,1,No
+47,male,29.8,3,yes,southwest,25309.489,Uttar Pradesh,Hypertension,Clerk,482802,1,No
+27,female,21.47,0,no,northwest,3353.4703,Kerala,Hypertension,Labour,459839,1,No
+55,male,27.645,0,no,northwest,10594.50155,Rajasthan,None,Engineer,484546,5,No
+48,female,28.9,0,no,southwest,8277.523,Tamil Nadu,Heart Disease,Doctor,692620,4,No
+45,female,31.79,0,no,southeast,17929.30337,Gujarat,Diabetes,Teacher,395217,2,No
+24,female,39.49,0,no,southeast,2480.9791,West Bengal,None,Engineer,418549,1,No
+32,male,33.82,1,no,northwest,4462.7218,Uttar Pradesh,Hypertension,Teacher,638432,1,No
+24,male,32.01,0,no,southeast,1981.5819,Maharashtra,Hypertension,Clerk,462519,0,No
+57,male,27.94,1,no,southeast,11554.2236,Maharashtra,None,Doctor,454937,2,No
+59,male,41.14,1,yes,southeast,48970.2476,Gujarat,Asthma,Self-employed,603486,1,No
+36,male,28.595,3,no,northwest,6548.19505,Andhra Pradesh,Heart Disease,Doctor,357980,3,No
+29,female,25.6,4,no,southwest,5708.867,Delhi,None,Clerk,582145,4,No
+42,female,25.3,1,no,southwest,7045.499,West Bengal,Heart Disease,Doctor,504561,2,No
+48,male,37.29,2,no,southeast,8978.1851,Maharashtra,None,Self-employed,546480,1,Yes
+39,male,42.655,0,no,northeast,5757.41345,Rajasthan,None,Labour,544603,2,No
+63,male,21.66,1,no,northwest,14349.8544,Maharashtra,None,Teacher,437201,3,No
+54,female,31.9,1,no,southeast,10928.849,Tamil Nadu,Asthma,Self-employed,605118,3,No
+37,male,37.07,1,yes,southeast,39871.7043,Kerala,Hypertension,Engineer,444986,1,Yes
+63,male,31.445,0,no,northeast,13974.45555,Maharashtra,None,Clerk,540884,2,No
+21,male,31.255,0,no,northwest,1909.52745,Tamil Nadu,Diabetes,Labour,623772,3,No
+54,female,28.88,2,no,northeast,12096.6512,Gujarat,Hypertension,Engineer,637890,1,No
+60,female,18.335,0,no,northeast,13204.28565,Gujarat,None,Engineer,473287,2,No
+32,female,29.59,1,no,southeast,4562.8421,Uttar Pradesh,Asthma,Clerk,546313,3,No
+47,female,32.0,1,no,southwest,8551.347,Maharashtra,Asthma,Labour,464051,0,No
+21,male,26.03,0,no,northeast,2102.2647,Rajasthan,Diabetes,Engineer,750379,2,No
+28,male,31.68,0,yes,southeast,34672.1472,Maharashtra,Heart Disease,Engineer,578012,2,No
+63,male,33.66,3,no,southeast,15161.5344,Rajasthan,Diabetes,Labour,508405,2,No
+18,male,21.78,2,no,southeast,11884.04858,Karnataka,Heart Disease,Doctor,531256,1,No
+32,male,27.835,1,no,northwest,4454.40265,Uttar Pradesh,Hypertension,Engineer,540710,3,No
+38,male,19.95,1,no,northwest,5855.9025,Karnataka,Hypertension,Teacher,543674,3,Yes
+32,male,31.5,1,no,southwest,4076.497,Maharashtra,None,Labour,476000,2,No
+62,female,30.495,2,no,northwest,15019.76005,Uttar Pradesh,Asthma,Engineer,460567,0,No
+39,female,18.3,5,yes,southwest,19023.26,Karnataka,Diabetes,Clerk,484814,1,No
+55,male,28.975,0,no,northeast,10796.35025,Delhi,None,Self-employed,386030,3,No
+57,male,31.54,0,no,northwest,11353.2276,Maharashtra,None,Teacher,571827,4,No
+52,male,47.74,1,no,southeast,9748.9106,Karnataka,Diabetes,Self-employed,419829,0,Yes
+56,male,22.1,0,no,southwest,10577.087,Delhi,Diabetes,Self-employed,394004,0,No
+47,male,36.19,0,yes,southeast,41676.0811,Delhi,Hypertension,Engineer,498564,2,No
+55,female,29.83,0,no,northeast,11286.5387,Gujarat,Asthma,Teacher,486987,1,No
+23,male,32.7,3,no,southwest,3591.48,Maharashtra,None,Teacher,524963,2,Yes
+22,female,30.4,0,yes,northwest,33907.548,Delhi,Hypertension,Doctor,443179,1,No
+50,female,33.7,4,no,southwest,11299.343,Gujarat,None,Self-employed,460745,0,No
+18,female,31.35,4,no,northeast,4561.1885,Karnataka,Asthma,Teacher,569211,0,No
+51,female,34.96,2,yes,northeast,44641.1974,Tamil Nadu,Asthma,Doctor,563121,1,No
+22,male,33.77,0,no,southeast,1674.6323,Maharashtra,Diabetes,Labour,558952,1,No
+52,female,30.875,0,no,northeast,23045.56616,Uttar Pradesh,Hypertension,Doctor,503396,4,Yes
+25,female,33.99,1,no,southeast,3227.1211,Rajasthan,None,Clerk,516892,0,No
+33,female,19.095,2,yes,northeast,16776.30405,Rajasthan,Diabetes,Engineer,523043,1,No
+53,male,28.6,3,no,southwest,11253.421,Karnataka,Asthma,Labour,434395,3,Yes
+29,male,38.94,1,no,southeast,3471.4096,Andhra Pradesh,Diabetes,Labour,647404,7,No
+58,male,36.08,0,no,southeast,11363.2832,Andhra Pradesh,None,Clerk,633158,0,No
+37,male,29.8,0,no,southwest,20420.60465,Karnataka,Diabetes,Doctor,579424,5,Yes
+54,female,31.24,0,no,southeast,10338.9316,Delhi,Asthma,Engineer,457413,1,No
+49,female,29.925,0,no,northwest,8988.15875,Maharashtra,None,Doctor,553914,1,No
+50,female,26.22,2,no,northwest,10493.9458,Rajasthan,None,Teacher,597836,3,No
+26,male,30.0,1,no,southwest,2904.088,Rajasthan,Hypertension,Doctor,377680,2,No
+45,male,20.35,3,no,southeast,8605.3615,Delhi,Asthma,Labour,669451,0,No
+54,female,32.3,1,no,northeast,11512.405,Rajasthan,None,Engineer,326061,1,No
+38,male,38.39,3,yes,southeast,41949.2441,Uttar Pradesh,None,Doctor,570460,1,Yes
+48,female,25.85,3,yes,southeast,24180.9335,Maharashtra,None,Engineer,645328,0,No
+28,female,26.315,3,no,northwest,5312.16985,Kerala,None,Engineer,488693,0,No
+23,male,24.51,0,no,northeast,2396.0959,Rajasthan,Diabetes,Teacher,484953,3,No
+55,male,32.67,1,no,southeast,10807.4863,Karnataka,Hypertension,Teacher,566766,3,No
+41,male,29.64,5,no,northeast,9222.4026,Uttar Pradesh,Hypertension,Labour,685188,4,Yes
+25,male,33.33,2,yes,southeast,36124.5737,Rajasthan,Hypertension,Clerk,471893,2,No
+33,male,35.75,1,yes,southeast,38282.7495,Uttar Pradesh,None,Engineer,421904,1,No
+30,female,19.95,3,no,northwest,5693.4305,Gujarat,Asthma,Clerk,457622,1,No
+23,female,31.4,0,yes,southwest,34166.273,Kerala,Diabetes,Labour,344748,3,No
+46,male,38.17,2,no,southeast,8347.1643,West Bengal,Heart Disease,Engineer,589775,2,No
+53,female,36.86,3,yes,northwest,46661.4424,Karnataka,Hypertension,Engineer,448591,2,No
+27,female,32.395,1,no,northeast,18903.49141,Karnataka,None,Self-employed,479166,2,No
+23,female,42.75,1,yes,northeast,40904.1995,Maharashtra,Hypertension,Clerk,590962,2,No
+63,female,25.08,0,no,northwest,14254.6082,Uttar Pradesh,None,Doctor,462308,0,No
+55,male,29.9,0,no,southwest,10214.636,Delhi,Hypertension,Teacher,575909,1,Yes
+35,female,35.86,2,no,southeast,5836.5204,Karnataka,None,Doctor,396191,1,Yes
+34,male,32.8,1,no,southwest,14358.36437,Uttar Pradesh,None,Clerk,595871,0,No
+19,female,18.6,0,no,southwest,1728.897,Uttar Pradesh,Asthma,Teacher,534190,3,Yes
+39,female,23.87,5,no,southeast,8582.3023,Tamil Nadu,None,Doctor,491142,4,No
+27,male,45.9,2,no,southwest,3693.428,Tamil Nadu,Asthma,Self-employed,513089,1,Yes
+57,male,40.28,0,no,northeast,20709.02034,West Bengal,None,Teacher,371323,5,Yes
+52,female,18.335,0,no,northwest,9991.03765,Gujarat,Hypertension,Engineer,510800,0,No
+28,male,33.82,0,no,northwest,19673.33573,West Bengal,Hypertension,Doctor,485833,2,No
+50,female,28.12,3,no,northwest,11085.5868,Rajasthan,Diabetes,Teacher,374056,0,No
+44,female,25.0,1,no,southwest,7623.518,Delhi,None,Self-employed,432892,7,No
+26,female,22.23,0,no,northwest,3176.2877,Rajasthan,None,Teacher,487075,4,No
+33,male,30.25,0,no,southeast,3704.3545,Andhra Pradesh,None,Teacher,439270,1,Yes
+19,female,32.49,0,yes,northwest,36898.73308,Rajasthan,None,Self-employed,258788,0,No
+50,male,37.07,1,no,southeast,9048.0273,Maharashtra,Hypertension,Doctor,607638,1,No
+41,female,32.6,3,no,southwest,7954.517,Rajasthan,Heart Disease,Labour,485791,2,No
+52,female,24.86,0,no,southeast,27117.99378,West Bengal,Asthma,Doctor,272604,4,No
+39,male,32.34,2,no,southeast,6338.0756,Karnataka,Hypertension,Clerk,713496,1,No
+50,male,32.3,2,no,southwest,9630.397,Karnataka,Hypertension,Self-employed,624139,0,Yes
+52,male,32.775,3,no,northwest,11289.10925,Tamil Nadu,Hypertension,Doctor,465101,2,Yes
+60,male,32.8,0,yes,southwest,52590.82939,Delhi,None,Teacher,415750,1,No
+20,female,31.92,0,no,northwest,2261.5688,Delhi,Heart Disease,Self-employed,540319,2,No
+55,male,21.5,1,no,southwest,10791.96,Maharashtra,Hypertension,Engineer,520232,0,Yes
+42,male,34.1,0,no,southwest,5979.731,West Bengal,Diabetes,Doctor,554208,0,No
+18,female,30.305,0,no,northeast,2203.73595,Tamil Nadu,None,Self-employed,416037,0,Yes
+58,female,36.48,0,no,northwest,12235.8392,Andhra Pradesh,Diabetes,Doctor,609777,1,No
+43,female,32.56,3,yes,southeast,40941.2854,Delhi,Diabetes,Self-employed,452653,2,No
+35,female,35.815,1,no,northwest,5630.45785,Karnataka,Asthma,Teacher,568076,4,No
+48,female,27.93,4,no,northwest,11015.1747,Rajasthan,Diabetes,Engineer,420306,3,No
+36,female,22.135,3,no,northeast,7228.21565,Rajasthan,None,Engineer,764814,4,No
+19,male,44.88,0,yes,southeast,39722.7462,Tamil Nadu,Heart Disease,Clerk,569552,5,No
+23,female,23.18,2,no,northwest,14426.07385,West Bengal,None,Self-employed,788423,0,Yes
+20,female,30.59,0,no,northeast,2459.7201,West Bengal,Diabetes,Doctor,582760,3,No
+32,female,41.1,0,no,southwest,3989.841,Gujarat,None,Engineer,443853,2,Yes
+43,female,34.58,1,no,northwest,7727.2532,Kerala,Hypertension,Engineer,582938,1,No
+34,male,42.13,2,no,southeast,5124.1887,Delhi,Heart Disease,Labour,590057,1,No
+30,male,38.83,1,no,southeast,18963.17192,West Bengal,None,Labour,537332,1,No
+18,female,28.215,0,no,northeast,2200.83085,Karnataka,Asthma,Engineer,563039,4,No
+41,female,28.31,1,no,northwest,7153.5539,Tamil Nadu,None,Self-employed,576172,5,Yes
+35,female,26.125,0,no,northeast,5227.98875,Andhra Pradesh,Heart Disease,Clerk,400631,0,No
+57,male,40.37,0,no,southeast,10982.5013,Gujarat,Hypertension,Engineer,393514,2,No
+29,female,24.6,2,no,southwest,4529.477,Uttar Pradesh,Asthma,Teacher,420578,2,No
+32,male,35.2,2,no,southwest,4670.64,Maharashtra,None,Doctor,512754,5,Yes
+37,female,34.105,1,no,northwest,6112.35295,Andhra Pradesh,Heart Disease,Clerk,477682,0,No
+18,male,27.36,1,yes,northeast,17178.6824,Uttar Pradesh,Hypertension,Teacher,402442,0,No
+43,female,26.7,2,yes,southwest,22478.6,Rajasthan,None,Clerk,577531,4,No
+56,female,41.91,0,no,southeast,11093.6229,Maharashtra,Asthma,Teacher,528304,3,No
+38,male,29.26,2,no,northwest,6457.8434,Delhi,None,Doctor,516892,2,No
+29,male,32.11,2,no,northwest,4433.9159,Karnataka,Asthma,Doctor,474201,4,Yes
+22,female,27.1,0,no,southwest,2154.361,Maharashtra,None,Labour,462177,1,Yes
+52,female,24.13,1,yes,northwest,23887.6627,Kerala,Hypertension,Self-employed,415866,1,No
+40,female,27.4,1,no,southwest,6496.886,Uttar Pradesh,Diabetes,Teacher,593374,1,Yes
+23,female,34.865,0,no,northeast,2899.48935,Delhi,None,Labour,429650,1,No
+31,male,29.81,0,yes,southeast,19350.3689,Kerala,None,Teacher,520939,1,No
+42,female,41.325,1,no,northeast,7650.77375,Rajasthan,None,Labour,666201,3,No
+24,female,29.925,0,no,northwest,2850.68375,Kerala,Diabetes,Doctor,466774,1,Yes
+25,female,30.3,0,no,southwest,2632.992,Gujarat,None,Clerk,596070,2,No
+48,female,27.36,1,no,northeast,9447.3824,Gujarat,Diabetes,Labour,556870,2,Yes
+23,female,28.49,1,yes,southeast,18328.2381,Tamil Nadu,None,Teacher,531146,1,No
+45,male,23.56,2,no,northeast,8603.8234,Andhra Pradesh,None,Teacher,543034,6,No
+20,male,35.625,3,yes,northwest,37465.34375,Andhra Pradesh,Hypertension,Self-employed,490509,2,No
+62,female,32.68,0,no,northwest,13844.7972,Delhi,None,Doctor,503477,5,No
+43,female,25.27,1,yes,northeast,21771.3423,Rajasthan,Heart Disease,Teacher,445188,3,Yes
+23,female,28.0,0,no,southwest,13126.67745,West Bengal,Asthma,Engineer,504145,0,No
+31,female,32.775,2,no,northwest,5327.40025,Gujarat,Hypertension,Clerk,441477,0,Yes
+41,female,21.755,1,no,northeast,13725.47184,Delhi,Diabetes,Labour,600565,0,Yes
+58,female,32.395,1,no,northeast,13019.16105,West Bengal,Asthma,Self-employed,330050,5,No
+48,female,36.575,0,no,northwest,8671.19125,Andhra Pradesh,None,Clerk,548105,2,No
+31,female,21.755,0,no,northwest,4134.08245,Tamil Nadu,None,Doctor,533658,1,No
+19,female,27.93,3,no,northwest,18838.70366,Kerala,None,Self-employed,524601,0,No
+19,female,30.02,0,yes,northwest,33307.5508,Gujarat,Hypertension,Labour,602449,1,No
+41,male,33.55,0,no,southeast,5699.8375,Delhi,None,Labour,471387,0,No
+40,male,29.355,1,no,northwest,6393.60345,Maharashtra,Diabetes,Engineer,525543,1,No
+31,female,25.8,2,no,southwest,4934.705,West Bengal,Heart Disease,Doctor,328345,5,Yes
+37,male,24.32,2,no,northwest,6198.7518,Kerala,Asthma,Self-employed,458468,1,No
+46,male,40.375,2,no,northwest,8733.22925,Gujarat,Diabetes,Self-employed,585573,0,Yes
+22,male,32.11,0,no,northwest,2055.3249,Andhra Pradesh,None,Teacher,366083,5,No
+51,male,32.3,1,no,northeast,9964.06,Rajasthan,Asthma,Engineer,515974,1,No
+18,female,27.28,3,yes,southeast,18223.4512,West Bengal,Diabetes,Engineer,432248,4,No
+35,male,17.86,1,no,northwest,5116.5004,Andhra Pradesh,None,Self-employed,488901,1,No
+59,female,34.8,2,no,southwest,36910.60803,Gujarat,None,Self-employed,438232,1,Yes
+36,male,33.4,2,yes,southwest,38415.474,West Bengal,Heart Disease,Clerk,375280,1,No
+37,female,25.555,1,yes,northeast,20296.86345,Kerala,Hypertension,Clerk,538600,1,No
+59,male,37.1,1,no,southwest,12347.172,Gujarat,Asthma,Clerk,495040,3,No
+36,male,30.875,1,no,northwest,5373.36425,Uttar Pradesh,Asthma,Engineer,561262,3,No
+39,male,34.1,2,no,southeast,23563.01618,Delhi,Diabetes,Teacher,579443,2,No
+18,male,21.47,0,no,northeast,1702.4553,Kerala,Diabetes,Labour,622525,2,No
+52,female,33.3,2,no,southwest,10806.839,West Bengal,Diabetes,Clerk,513348,1,No
+27,female,31.255,1,no,northwest,3956.07145,Rajasthan,None,Teacher,626862,3,Yes
+18,male,39.14,0,no,northeast,12890.05765,Andhra Pradesh,Diabetes,Doctor,402422,1,Yes
+40,male,25.08,0,no,southeast,5415.6612,Maharashtra,Hypertension,Clerk,590895,4,No
+29,male,37.29,2,no,southeast,4058.1161,Andhra Pradesh,Hypertension,Labour,545939,1,Yes
+46,female,34.6,1,yes,southwest,41661.602,West Bengal,Asthma,Doctor,523309,3,No
+38,female,30.21,3,no,northwest,7537.1639,Andhra Pradesh,Diabetes,Doctor,544473,2,No
+30,female,21.945,1,no,northeast,4718.20355,Delhi,Hypertension,Labour,403926,1,No
+40,male,24.97,2,no,southeast,6593.5083,Gujarat,Hypertension,Clerk,380325,2,No
+50,male,25.3,0,no,southeast,8442.667,Maharashtra,Diabetes,Engineer,670982,4,Yes
+20,female,24.42,0,yes,southeast,26125.67477,Karnataka,Hypertension,Labour,483127,2,No
+41,male,23.94,1,no,northeast,6858.4796,West Bengal,None,Labour,481700,2,No
+33,female,39.82,1,no,southeast,4795.6568,Tamil Nadu,Diabetes,Labour,389769,1,No
+38,male,16.815,2,no,northeast,6640.54485,Karnataka,None,Doctor,351822,2,Yes
+42,male,37.18,2,no,southeast,7162.0122,Andhra Pradesh,None,Teacher,491168,2,No
+56,male,34.43,0,no,southeast,10594.2257,West Bengal,Diabetes,Engineer,465841,1,Yes
+58,male,30.305,0,no,northeast,11938.25595,Uttar Pradesh,Hypertension,Clerk,500173,0,No
+52,male,34.485,3,yes,northwest,60021.39897,Tamil Nadu,Heart Disease,Clerk,508715,0,Yes
+20,female,21.8,0,yes,southwest,20167.33603,Maharashtra,Hypertension,Teacher,748946,1,No
+54,female,24.605,3,no,northwest,12479.70895,Rajasthan,Hypertension,Labour,466142,3,No
+58,male,23.3,0,no,southwest,11345.519,Uttar Pradesh,Diabetes,Engineer,657994,1,Yes
+45,female,27.83,2,no,southeast,8515.7587,Karnataka,Hypertension,Clerk,664202,2,Yes
+26,male,31.065,0,no,northwest,2699.56835,Gujarat,None,Self-employed,575362,1,No
+63,female,21.66,0,no,northeast,14449.8544,Delhi,None,Clerk,476487,2,Yes
+58,female,28.215,0,no,northwest,12224.35085,Rajasthan,None,Labour,363852,4,No
+37,male,22.705,3,no,northeast,6985.50695,Uttar Pradesh,Diabetes,Self-employed,547794,1,No
+25,female,42.13,1,no,southeast,3238.4357,Gujarat,None,Teacher,601881,1,No
+52,male,41.8,2,yes,southeast,47269.854,Gujarat,None,Engineer,674768,1,No
+64,male,36.96,2,yes,southeast,49577.6624,West Bengal,None,Teacher,405004,3,Yes
+22,female,21.28,3,no,northwest,4296.2712,Uttar Pradesh,Heart Disease,Teacher,475647,4,No
+28,female,33.11,0,no,southeast,3171.6149,Maharashtra,None,Engineer,405613,6,Yes
+18,male,33.33,0,no,southeast,1135.9407,Andhra Pradesh,Diabetes,Engineer,436652,1,No
+28,male,24.3,5,no,southwest,5615.369,Tamil Nadu,None,Clerk,566438,1,No
+45,female,25.7,3,no,southwest,9101.798,Tamil Nadu,Hypertension,Clerk,432069,6,No
+33,male,29.4,4,no,southwest,6059.173,Karnataka,None,Engineer,417572,2,Yes
+18,female,39.82,0,no,southeast,1633.9618,Karnataka,None,Self-employed,579699,2,No
+32,male,33.63,1,yes,northeast,37607.5277,Tamil Nadu,Diabetes,Doctor,545073,3,No
+24,male,29.83,0,yes,northeast,18648.4217,Maharashtra,None,Clerk,535001,4,No
+19,male,19.8,0,no,southwest,1241.565,Delhi,None,Doctor,434711,0,No
+20,male,27.3,0,yes,southwest,16232.847,Kerala,None,Self-employed,629302,3,No
+40,female,29.3,4,no,southwest,15828.82173,Andhra Pradesh,None,Engineer,501449,3,Yes
+34,female,27.72,0,no,southeast,4415.1588,Delhi,None,Self-employed,738019,3,No
+42,female,37.9,0,no,southwest,6474.013,West Bengal,None,Clerk,516116,1,No
+51,female,36.385,3,no,northwest,11436.73815,Kerala,Asthma,Teacher,266665,0,No
+54,female,27.645,1,no,northwest,11305.93455,Kerala,Diabetes,Engineer,262212,0,No
+55,male,37.715,3,no,northwest,30063.58055,Uttar Pradesh,Diabetes,Labour,562394,1,Yes
+52,female,23.18,0,no,northeast,10197.7722,Maharashtra,None,Doctor,630049,1,No
+32,female,20.52,0,no,northeast,4544.2348,Maharashtra,Heart Disease,Self-employed,421617,1,No
+28,male,37.1,1,no,southwest,3277.161,Kerala,None,Engineer,710097,1,Yes
+41,female,28.05,1,no,southeast,6770.1925,Uttar Pradesh,None,Self-employed,666299,5,No
+43,female,29.9,1,no,southwest,7337.748,Andhra Pradesh,Hypertension,Engineer,521054,3,No
+49,female,33.345,2,no,northeast,10370.91255,Kerala,None,Clerk,553945,2,No
+64,male,23.76,0,yes,southeast,26926.5144,Rajasthan,None,Clerk,589453,1,No
+55,female,30.5,0,no,southwest,10704.47,Karnataka,Diabetes,Clerk,688999,1,No
+24,male,31.065,0,yes,northeast,34254.05335,Karnataka,Asthma,Self-employed,568213,1,Yes
+20,female,33.3,0,no,southwest,1880.487,Delhi,Diabetes,Labour,518793,3,No
+45,male,27.5,3,no,southwest,8615.3,West Bengal,Hypertension,Clerk,567230,6,No
+26,male,33.915,1,no,northwest,3292.52985,Karnataka,Heart Disease,Engineer,553736,2,No
+25,female,34.485,0,no,northwest,3021.80915,Gujarat,None,Clerk,592441,4,No
+43,male,25.52,5,no,southeast,14478.33015,Delhi,None,Teacher,342997,0,No
+35,male,27.61,1,no,southeast,4747.0529,Karnataka,None,Clerk,531585,3,Yes
+26,male,27.06,0,yes,southeast,17043.3414,West Bengal,Diabetes,Self-employed,546044,6,Yes
+57,male,23.7,0,no,southwest,10959.33,Maharashtra,Diabetes,Labour,492715,2,No
+22,female,30.4,0,no,northeast,2741.948,Maharashtra,Heart Disease,Teacher,578416,3,No
+32,female,29.735,0,no,northwest,4357.04365,Andhra Pradesh,Hypertension,Self-employed,692116,2,No
+39,male,29.925,1,yes,northeast,22462.04375,Kerala,Hypertension,Self-employed,513821,1,No
+25,female,26.79,2,no,northwest,4189.1131,Rajasthan,None,Self-employed,569172,1,No
+48,female,33.33,0,no,southeast,8283.6807,Maharashtra,Asthma,Engineer,660626,2,No
+47,female,27.645,2,yes,northwest,24535.69855,Uttar Pradesh,Heart Disease,Self-employed,516156,5,No
+18,female,21.66,0,yes,northeast,14283.4594,Karnataka,Asthma,Engineer,411153,2,No
+18,male,30.03,1,no,southeast,1720.3537,Uttar Pradesh,None,Self-employed,561577,1,No
+61,male,36.3,1,yes,southwest,47403.88,West Bengal,Hypertension,Doctor,279833,2,No
+47,female,24.32,0,no,northeast,8534.6718,Maharashtra,None,Teacher,270163,1,Yes
+28,female,17.29,0,no,northeast,3732.6251,Rajasthan,None,Doctor,533301,2,No
+36,female,25.9,1,no,southwest,5472.449,West Bengal,None,Self-employed,265502,1,No
+20,male,39.4,2,yes,southwest,38344.566,Gujarat,Hypertension,Teacher,368483,0,Yes
+44,male,34.32,1,no,southeast,7147.4728,Gujarat,Hypertension,Teacher,461990,2,Yes
+38,female,19.95,2,no,northeast,7133.9025,Uttar Pradesh,None,Labour,427858,2,Yes
+19,male,34.9,0,yes,southwest,34828.654,Kerala,None,Doctor,485219,2,No
+21,male,23.21,0,no,southeast,1515.3449,Delhi,Diabetes,Labour,611287,0,Yes
+46,male,25.745,3,no,northwest,9301.89355,Kerala,None,Teacher,523848,2,Yes
+58,male,25.175,0,no,northeast,11931.12525,Andhra Pradesh,None,Engineer,416067,2,No
+20,male,22.0,1,no,southwest,1964.78,Kerala,Diabetes,Teacher,635444,2,No
+18,male,26.125,0,no,northeast,1708.92575,Andhra Pradesh,Hypertension,Labour,357114,0,Yes
+28,female,26.51,2,no,southeast,4340.4409,Andhra Pradesh,None,Doctor,522188,1,No
+33,male,27.455,2,no,northwest,5261.46945,Rajasthan,None,Self-employed,345991,3,No
+19,female,25.745,1,no,northwest,2710.82855,Maharashtra,None,Self-employed,525231,1,No
+45,male,30.36,0,yes,southeast,62592.87309,Rajasthan,Heart Disease,Doctor,468137,0,No
+62,male,30.875,3,yes,northwest,46718.16325,Andhra Pradesh,Hypertension,Self-employed,608223,2,Yes
+25,female,20.8,1,no,southwest,3208.787,West Bengal,Hypertension,Self-employed,572068,2,No
+43,male,27.8,0,yes,southwest,37829.7242,Gujarat,None,Labour,441286,1,No
+42,male,24.605,2,yes,northeast,21259.37795,Andhra Pradesh,Diabetes,Doctor,422106,2,Yes
+24,female,27.72,0,no,southeast,2464.6188,Rajasthan,None,Clerk,468490,1,No
+29,female,21.85,0,yes,northeast,16115.3045,West Bengal,Hypertension,Engineer,687557,2,No
+32,male,28.12,4,yes,northwest,21472.4788,Rajasthan,Heart Disease,Engineer,661906,0,No
+25,female,30.2,0,yes,southwest,33900.653,Kerala,Hypertension,Self-employed,403173,2,No
+41,male,32.2,2,no,southwest,6875.961,Karnataka,Asthma,Engineer,580022,2,No
+42,male,26.315,1,no,northwest,6940.90985,Uttar Pradesh,Hypertension,Doctor,326856,2,No
+33,female,26.695,0,no,northwest,4571.41305,Delhi,None,Doctor,455265,2,No
+34,male,42.9,1,no,southwest,4536.259,Rajasthan,Heart Disease,Teacher,407243,2,No
+19,female,34.7,2,yes,southwest,36397.576,Delhi,None,Teacher,606927,2,No
+30,female,23.655,3,yes,northwest,18765.87545,Tamil Nadu,Diabetes,Engineer,370928,1,No
+18,male,28.31,1,no,northeast,11272.33139,Rajasthan,None,Clerk,542935,3,No
+19,female,20.6,0,no,southwest,1731.677,Karnataka,None,Teacher,500071,3,No
+18,male,53.13,0,no,southeast,1163.4627,Delhi,Diabetes,Teacher,482455,1,No
+35,male,39.71,4,no,northeast,19496.71917,Andhra Pradesh,None,Doctor,667158,0,No
+39,female,26.315,2,no,northwest,7201.70085,Rajasthan,Diabetes,Clerk,675969,0,No
+31,male,31.065,3,no,northwest,5425.02335,Maharashtra,Diabetes,Self-employed,485560,1,Yes
+62,male,26.695,0,yes,northeast,28101.33305,Uttar Pradesh,None,Engineer,465408,2,No
+62,male,38.83,0,no,southeast,12981.3457,Karnataka,None,Teacher,349312,2,Yes
+42,female,40.37,2,yes,southeast,43896.3763,Delhi,Diabetes,Clerk,499574,4,Yes
+31,male,25.935,1,no,northwest,4239.89265,Karnataka,None,Clerk,695330,0,Yes
+61,male,33.535,0,no,northeast,13143.33665,West Bengal,Hypertension,Engineer,487126,1,No
+42,female,32.87,0,no,northeast,7050.0213,Uttar Pradesh,Hypertension,Clerk,572875,5,No
+51,male,30.03,1,no,southeast,9377.9047,Andhra Pradesh,Asthma,Clerk,360250,4,No
+23,female,24.225,2,no,northeast,22395.74424,Rajasthan,Hypertension,Clerk,456522,0,No
+52,male,38.6,2,no,southwest,10325.206,Rajasthan,Diabetes,Teacher,546246,2,No
+57,female,25.74,2,no,southeast,12629.1656,Rajasthan,Hypertension,Engineer,510586,2,No
+23,female,33.4,0,no,southwest,10795.93733,Uttar Pradesh,None,Clerk,582466,5,No
+52,female,44.7,3,no,southwest,11411.685,Maharashtra,None,Clerk,439732,0,No
+50,male,30.97,3,no,northwest,10600.5483,Tamil Nadu,Hypertension,Teacher,325001,0,No
+18,female,31.92,0,no,northeast,2205.9808,Gujarat,Diabetes,Engineer,612209,2,No
+18,female,36.85,0,no,southeast,1629.8335,Kerala,Hypertension,Doctor,406385,1,No
+21,female,25.8,0,no,southwest,2007.945,Delhi,Asthma,Teacher,550660,3,No
+61,female,29.07,0,yes,northwest,29141.3603,Maharashtra,Asthma,Engineer,545085,0,No
