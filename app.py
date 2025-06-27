@@ -109,6 +109,18 @@ for i in range(0, len(ordered_keys), 2):
             else:
                 val = cols[j].selectbox(f"{label}", options=df[key].dropna().unique(), help=feature_info.get(key, ""))
             input_data[key] = val
+import json
+
+# Convert input to JSON string
+input_json_str = json.dumps(input_data, indent=4)
+
+# Allow user to download the JSON
+st.download_button(
+    label="⬇️ Download Input as JSON",
+    data=input_json_str,
+    file_name="insurance_input.json",
+    mime="application/json"
+)
 
 # ---------- Predict Premium ----------
 if st.button("📊 Predict Premium"):
